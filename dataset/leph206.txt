@@ -1,0 +1,4556 @@
+Chapter Fourteen
+
+SEMICONDUCTOR
+ELECTRONICS:
+MATERIALS, DEVICES
+AND SIMPLE CIRCUITS
+14.1 INTRODUCTION
+Devices in which a controlled flow of electrons can be obtained are the
+basic building blocks of all the electronic circuits. Before the discovery of
+transistor in 1948, such devices were mostly vacuum tubes (also called
+valves) like the vacuum diode which has two electrodes, viz., anode (often
+called plate) and cathode; triode which has three electrodes – cathode,
+plate and grid; tetrode and pentode (respectively with 4 and 5 electrodes).
+In a vacuum tube, the electrons are supplied by a heated cathode and
+the controlled flow of these electrons in vacuum is obtained by varying
+the voltage between its different electrodes. Vacuum is required in the
+inter-electrode space; otherwise the moving electrons may lose their
+energy on collision with the air molecules in their path. In these devices
+the electrons can flow only from the cathode to the anode (i.e., only in one
+direction). Therefore, such devices are generally referred to as valves.
+These vacuum tube devices are bulky, consume high power, operate
+generally at high voltages (~100 V ) and have limited life and low reliability.
+The seed of the development of modern solid-state semiconductor
+electronics goes back to 1930’s when it was realised that some solidstate semiconductors and their junctions offer the possibility of controlling
+the number and the direction of flow of charge carriers through them.
+Simple excitations like light, heat or small applied voltage can change
+the number of mobile charges in a semiconductor. Note that the supply
+2022-23
+
+Physics
+and flow of charge carriers in the semiconductor devices are within the
+solid itself, while in the earlier vacuum tubes/valves, the mobile electrons
+were obtained from a heated cathode and they were made to flow in an
+evacuated space or vacuum. No external heating or large evacuated space
+is required by the semiconductor devices. They are small in size, consume
+low power, operate at low voltages and have long life and high reliability.
+Even the Cathode Ray Tubes (CRT) used in television and computer
+monitors which work on the principle of vacuum tubes are being replaced
+by Liquid Crystal Display (LCD) monitors with supporting solid state
+electronics. Much before the full implications of the semiconductor devices
+was formally understood, a naturally occurring crystal of galena (Lead
+sulphide, PbS) with a metal point contact attached to it was used as
+detector of radio waves.
+In the following sections, we will introduce the basic concepts of
+semiconductor physics and discuss some semiconductor devices like
+junction diodes (a 2-electrode device) and bipolar junction transistor (a
+3-electrode device). A few circuits illustrating their applications will also
+be described.
+
+14.2 CLASSIFICATION OF METALS, CONDUCTORS
+SEMICONDUCTORS
+
+468
+
+AND
+
+On the basis of conductivity
+On the basis of the relative values of electrical conductivity (σ ) or resistivity
+( ρ = 1/σ ), the solids are broadly classified as:
+(i) Metals: They possess very low resistivity (or high conductivity).
+ρ ~ 10–2 – 10–8 Ω m
+σ ~ 102 – 108 S m–1
+(ii) Semiconductors: They have resistivity or conductivity intermediate
+to metals and insulators.
+ρ ~ 10–5 – 106 Ω m
+σ ~ 105 – 10–6 S m–1
+(iii)Insulators: They have high resistivity (or low conductivity).
+ρ ~ 1011 – 1019 Ω m
+σ ~ 10–11 – 10–19 S m–1
+The values of ρ and σ given above are indicative of magnitude and
+could well go outside the ranges as well. Relative values of the resistivity
+are not the only criteria for distinguishing metals, insulators and
+semiconductors from each other. There are some other differences, which
+will become clear as we go along in this chapter.
+Our interest in this chapter is in the study of semiconductors which
+could be:
+(i) Elemental semiconductors: Si and Ge
+(ii) Compound semiconductors: Examples are:
+• Inorganic: CdS, GaAs, CdSe, InP, etc.
+• Organic: anthracene, doped pthalocyanines, etc.
+• Organic polymers: polypyrrole, polyaniline, polythiophene, etc.
+Most of the currently available semiconductor devices are based on
+elemental semiconductors Si or Ge and compound inorganic
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+semiconductors. However, after 1990, a few semiconductor devices using
+organic semiconductors and semiconducting polymers have been
+developed signalling the birth of a futuristic technology of polymerelectronics and molecular-electronics. In this chapter, we will restrict
+ourselves to the study of inorganic semiconductors, particularly
+elemental semiconductors Si and Ge. The general concepts introduced
+here for discussing the elemental semiconductors, by-and-large, apply
+to most of the compound semiconductors as well.
+On the basis of energy bands
+According to the Bohr atomic model, in an isolated atom the energy of
+any of its electrons is decided by the orbit in which it revolves. But when
+the atoms come together to form a solid they are close to each other. So
+the outer orbits of electrons from neighbouring atoms would come very
+close or could even overlap. This would make the nature of electron motion
+in a solid very different from that in an isolated atom.
+Inside the crystal each electron has a unique position and no two
+electrons see exactly the same pattern of surrounding charges. Because
+of this, each electron will have a different energy level. These different
+energy levels with continuous energy variation form what are called
+energy bands. The energy band which includes the energy levels of the
+valence electrons is called the valence band. The energy band above the
+valence band is called the conduction band. With no external energy, all
+the valence electrons will reside in the valence band. If the lowest level in
+the conduction band happens to be lower than the highest level of the
+valence band, the electrons from the valence band can easily move into
+the conduction band. Normally the conduction band is empty. But when
+it overlaps on the valence band electrons can move freely into it. This is
+the case with metallic conductors.
+If there is some gap between the conduction band and the valence
+band, electrons in the valence band all remain bound and no free electrons
+are available in the conduction band. This makes the material an
+insulator. But some of the electrons from the valence band may gain
+external energy to cross the gap between the conduction band and the
+valence band. Then these electrons will move into the conduction band.
+At the same time they will create vacant energy levels in the valence band
+where other valence electrons can move. Thus the process creates the
+possibility of conduction due to electrons in conduction band as well as
+due to vacancies in the valence band.
+Let us consider what happens in the case of Si or Ge crystal containing
+N atoms. For Si, the outermost orbit is the third orbit (n = 3), while for Ge
+it is the fourth orbit (n = 4). The number of electrons in the outermost
+orbit is 4 (2s and 2p electrons). Hence, the total number of outer electrons
+in the crystal is 4N. The maximum possible number of electrons in the
+outer orbit is 8 (2s + 6p electrons). So, for the 4N valence electrons there
+are 8N available energy states. These 8N discrete energy levels can either
+form a continuous band or they may be grouped in different bands
+depending upon the distance between the atoms in the crystal (see box
+on Band Theory of Solids).
+At the distance between the atoms in the crystal lattices of Si and Ge,
+the energy band of these 8N states is split apart into two which are
+separated by an energy gap Eg (Fig. 14.1). The lower band which is
+2022-23
+
+469
+
+Physics
+completely occupied by the 4N valence electrons at temperature of absolute
+zero is the valence band. The other band consisting of 4N energy states,
+called the conduction band, is completely empty at absolute zero.
+
+BAND
+
+THEORY OF SOLIDS
+
+Consider that the Si or Ge crystal
+contains N atoms. Electrons of each
+atom will have discrete energies in
+different orbits. The electron energy
+will be same if all the atoms are
+isolated, i.e., separated from each
+other by a large distance. However,
+in a crystal, the atoms are close to
+each other (2 to 3 Å) and therefore
+the electrons interact with each
+other and also with the
+neighbouring atomic cores. The
+overlap (or interaction) will be more
+felt by the electrons in the
+outermost orbit while the inner
+orbit or core electron energies may
+remain unaffected. Therefore, for understanding electron energies in Si or Ge crystal, we
+need to consider the changes in the energies of the electrons in the outermost orbit only.
+For Si, the outermost orbit is the third orbit (n = 3), while for Ge it is the fourth orbit
+(n = 4). The number of electrons in the outermost orbit is 4 (2s and 2p electrons). Hence,
+the total number of outer electrons in the crystal is 4N. The maximum possible number of
+outer electrons in the orbit is 8 (2s + 6p electrons). So, out of the 4N electrons, 2N electrons
+are in the 2N s-states (orbital quantum number l = 0) and 2N electrons are in the available
+6N p-states. Obviously, some p-electron states are empty as shown in the extreme right of
+Figure. This is the case of well separated or isolated atoms [region A of Figure].
+Suppose these atoms start coming nearer to each other to form a solid. The energies
+of these electrons in the outermost orbit may change (both increase and decrease) due to
+the interaction between the electrons of different atoms. The 6N states for l = 1, which
+originally had identical energies in the isolated atoms, spread out and form an energy
+band [region B in Figure]. Similarly, the 2N states for l = 0, having identical energies in
+the isolated atoms, split into a second band (carefully see the region B of Figure) separated
+from the first one by an energy gap.
+At still smaller spacing, however, there comes a region in which the bands merge with
+each other. The lowest energy state that is a split from the upper atomic level appears to
+drop below the upper state that has come from the lower atomic level. In this region (region
+C in Figure), no energy gap exists where the upper and lower energy states get mixed.
+Finally, if the distance between the atoms further decreases, the energy bands again
+split apart and are separated by an energy gap Eg (region D in Figure). The total number
+of available energy states 8N has been re-apportioned between the two bands (4N states
+each in the lower and upper energy bands). Here the significant point is that there are
+exactly as many states in the lower band (4N ) as there are available valence electrons
+from the atoms (4N ).
+Therefore, this band ( called the valence band ) is completely filled while the upper
+band is completely empty. The upper band is called the conduction band.
+
+470
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+The lowest energy level in the
+conduction band is shown as EC and
+highest energy level in the valence band
+is shown as EV . Above EC and below EV
+there are a large number of closely spaced
+energy levels, as shown in Fig. 14.1.
+The gap between the top of the valence
+band and bottom of the conduction band
+is called the energy band gap (Energy gap
+Eg ). It may be large, small, or zero,
+depending upon the material. These
+different situations, are depicted in Fig.
+14.2 and discussed below:
+Case I: This refers to a situation, as
+shown in Fig. 14.2(a). One can have a
+metal either when the conduction band
+FIGURE 14.1 The energy band positions in a
+is partially filled and the balanced band
+semiconductor
+at 0 K. The upper band, called the
+is partially empty or when the conduction
+conduction
+band,
+consists of infinitely large number
+and valance bands overlap. When there
+of closely spaced energy states. The lower band,
+is overlap electrons from valence band can
+called the valence band, consists of closely spaced
+easily move into the conduction band.
+completely filled energy states.
+This situation makes a large number of
+electrons available for electrical conduction. When the valence band is
+partially empty, electrons from its lower level can move to higher level
+making conduction possible. Therefore, the resistance of such materials
+is low or the conductivity is high.
+
+FIGURE 14.2 Difference between energy bands of (a) metals,
+(b) insulators and (c) semiconductors.
+2022-23
+
+471
+
+Physics
+Case II: In this case, as shown in Fig. 14.2(b), a large band gap Eg exists
+(Eg > 3 eV). There are no electrons in the conduction band, and therefore
+no electrical conduction is possible. Note that the energy gap is so large
+that electrons cannot be excited from the valence band to the conduction
+band by thermal excitation. This is the case of insulators.
+Case III: This situation is shown in Fig. 14.2(c). Here a finite but small
+band gap (Eg < 3 eV) exists. Because of the small band gap, at room
+temperature some electrons from valence band can acquire enough
+energy to cross the energy gap and enter the conduction band. These
+electrons (though small in numbers) can move in the conduction band.
+Hence, the resistance of semiconductors is not as high as that of the
+insulators.
+In this section we have made a broad classification of metals,
+conductors and semiconductors. In the section which follows you will
+learn the conduction process in semiconductors.
+
+14.3 INTRINSIC SEMICONDUCTOR
+We shall take the most common case of Ge and Si whose lattice structure
+is shown in Fig. 14.3. These structures are called the diamond-like
+structures. Each atom is surrounded by four nearest neighbours. We
+know that Si and Ge have four valence electrons. In its crystalline
+structure, every Si or Ge atom tends to share one of its four valence
+electrons with each of its four nearest neighbour atoms, and also to take
+share of one electron from each such neighbour. These shared electron
+pairs are referred to as forming a covalent bond or simply a valence
+bond. The two shared electrons can be assumed to shuttle back-andforth between the associated atoms holding them together strongly.
+Figure 14.4 schematically shows the 2-dimensional representation of Si
+or Ge structure shown in Fig. 14.3 which overemphasises the covalent
+bond. It shows an idealised picture in which no bonds are broken (all
+bonds are intact). Such a situation arises at low
+temperatures. As the temperature increases, more
+thermal energy becomes available to these electrons
+and some of these electrons may break–away
+(becoming free electrons contributing to conduction).
+The thermal energy effectively ionises only a few atoms
+in the crystalline lattice and creates a vacancy in the
+bond as shown in Fig. 14.5(a). The neighbourhood,
+from which the free electron (with charge –q ) has come
+out leaves a vacancy with an effective charge (+q ). This
+vacancy with the effective positive electronic charge is
+called a hole. The hole behaves as an apparent free
+particle with effective positive charge.
+In intrinsic semiconductors, the number of free
+FIGURE 14.3 Three-dimensional diaelectrons,
+ne is equal to the number of holes, nh. That is
+mond-like crystal structure for Carbon,
+n
+=
+n
+(14.1)
+Silicon or Germanium with
+e
+h = ni
+is
+called
+intrinsic
+carrier
+concentration.
+where
+n
+respective lattice spacing a equal
+i
+Semiconductors posses the unique property in
+to 3.56, 5.43 and 5.66 Å.
+472
+which, apart from electrons, the holes also move.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+Suppose there is a hole at site 1 as shown in
+Fig. 14.5(a). The movement of holes can be
+visualised as shown in Fig. 14.5(b). An electron
+from the covalent bond at site 2 may jump to
+the vacant site 1 (hole). Thus, after such a jump,
+the hole is at site 2 and the site 1 has now an
+electron. Therefore, apparently, the hole has
+moved from site 1 to site 2. Note that the electron
+originally set free [Fig. 14.5(a)] is not involved
+in this process of hole motion. The free electron
+moves completely independently as conduction
+electron and gives rise to an electron current, Ie
+under an applied electric field. Remember that
+the motion of hole is only a convenient way of
+FIGURE 14.4 Schematic two-dimensional
+describing the actual motion of bound electrons,
+representation of Si or Ge structure showing
+whenever there is an empty bond anywhere in
+covalent bonds at low temperature
+(all bonds intact). +4 symbol
+the crystal. Under the action of an electric field,
+indicates
+inner cores of Si or Ge.
+these holes move towards negative potential
+giving the hole current, Ih. The total current, I is
+thus the sum of the electron current Ie and the
+hole current Ih:
+(14.2)
+I = I e + Ih
+It may be noted that apart from the process of generation of conduction
+electrons and holes, a simultaneous process of recombination occurs in
+which the electrons recombine with the holes. At equilibrium, the rate of
+generation is equal to the rate of recombination of charge carriers. The
+recombination occurs due to an electron colliding with a hole.
+
+(a)
+
+(b)
+
+FIGURE 14.5 (a) Schematic model of generation of hole at site 1 and conduction electron
+due to thermal energy at moderate temperatures. (b) Simplified representation of
+possible thermal motion of a hole. The electron from the lower left hand covalent bond
+(site 2) goes to the earlier hole site1, leaving a hole at its site indicating an
+473
+apparent movement of the hole from site 1 to site 2.
+2022-23
+
+Physics
+
+FIGURE 14.6 (a) An intrinsic semiconductor at T = 0 K
+behaves like insulator. (b) At T > 0 K, four thermally generated
+electron-hole pairs. The filled circles ( ) represent electrons
+and empty circles ( ) represent holes.
+
+An intrinsic semiconductor
+will behave like an insulator at
+T = 0 K as shown in Fig. 14.6(a).
+It is the thermal energy at
+higher temperatures (T > 0K),
+which excites some electrons
+from the valence band to the
+conduction band. These
+thermally excited electrons at
+T > 0 K, partially occupy the
+conduction band. Therefore,
+the energy-band diagram of an
+intrinsic semiconductor will be
+as shown in Fig. 14.6(b). Here,
+some electrons are shown in
+the conduction band. These
+have come from the valence
+band leaving equal number of
+holes there.
+
+EXAMPLE 14.1
+
+Example 14.1 C, Si and Ge have same lattice structure. Why is C
+insulator while Si and Ge intrinsic semiconductors?
+Solution The 4 bonding electrons of C, Si or Ge lie, respectively, in
+the second, third and fourth orbit. Hence, energy required to take
+out an electron from these atoms (i.e., ionisation energy Eg ) will be
+least for Ge, followed by Si and highest for C. Hence, number of free
+electrons for conduction in Ge and Si are significant but negligibly
+small for C.
+
+14.4 EXTRINSIC SEMICONDUCTOR
+
+474
+
+The conductivity of an intrinsic semiconductor depends on its
+temperature, but at room temperature its conductivity is very low. As
+such, no important electronic devices can be developed using these
+semiconductors. Hence there is a necessity of improving their
+conductivity. This can be done by making use of impurities.
+When a small amount, say, a few parts per million (ppm), of a suitable
+impurity is added to the pure semiconductor, the conductivity of the
+semiconductor is increased manifold. Such materials are known as
+extrinsic semiconductors or impurity semiconductors. The deliberate
+addition of a desirable impurity is called doping and the impurity atoms
+are called dopants. Such a material is also called a doped semiconductor.
+The dopant has to be such that it does not distort the original pure
+semiconductor lattice. It occupies only a very few of the original
+semiconductor atom sites in the crystal. A necessary condition to attain
+this is that the sizes of the dopant and the semiconductor atoms should
+be nearly the same.
+There are two types of dopants used in doping the tetravalent Si
+or Ge:
+(i) Pentavalent (valency 5); like Arsenic (As), Antimony (Sb), Phosphorous
+(P), etc.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+(ii) Trivalent (valency 3); like Indium (In),
+Boron (B), Aluminium (Al), etc.
+We shall now discuss how the doping
+changes the number of charge carriers (and
+hence the conductivity) of semiconductors.
+Si or Ge belongs to the fourth group in the
+Periodic table and, therefore, we choose the
+dopant element from nearby fifth or third
+group, expecting and taking care that the
+size of the dopant atom is nearly the same as
+that of Si or Ge. Interestingly, the pentavalent
+and trivalent dopants in Si or Ge give two
+entirely different types of semiconductors as
+discussed below.
+(i) n-type semiconductor
+Suppose we dope Si or Ge with a pentavalent
+element as shown in Fig. 14.7. When an atom
+of +5 valency element occupies the position
+of an atom in the crystal lattice of Si, four of
+its electrons bond with the four silicon
+neighbours while the fifth remains very
+weakly bound to its parent atom. This is
+because the four electrons participating in
+bonding are seen as part of the effective core FIGURE 14.7 (a) Pentavalent donor atom (As, Sb,
+P, etc.) doped for tetravalent Si or Ge giving nof the atom by the fifth electron. As a result
+type semiconductor, and (b) Commonly used
+the ionisation energy required to set this
+schematic representation of n-type material
+electron free is very small and even at room
+which shows only the fixed cores of the
+temperature it will be free to move in the
+substituent donors with one additional effective
+lattice of the semiconductor. For example, the positive charge and its associated extra electron.
+energy required is ~ 0.01 eV for germanium,
+and 0.05 eV for silicon, to separate this
+electron from its atom. This is in contrast to the energy required to jump
+the forbidden band (about 0.72 eV for germanium and about 1.1 eV for
+silicon) at room temperature in the intrinsic semiconductor. Thus, the
+pentavalent dopant is donating one extra electron for conduction and
+hence is known as donor impurity. The number of electrons made
+available for conduction by dopant atoms depends strongly upon the
+doping level and is independent of any increase in ambient temperature.
+On the other hand, the number of free electrons (with an equal number
+of holes) generated by Si atoms, increases weakly with temperature.
+In a doped semiconductor the total number of conduction electrons
+ne is due to the electrons contributed by donors and those generated
+intrinsically, while the total number of holes nh is only due to the holes
+from the intrinsic source. But the rate of recombination of holes would
+increase due to the increase in the number of electrons. As a result, the
+number of holes would get reduced further.
+Thus, with proper level of doping the number of conduction electrons
+475
+can be made much larger than the number of holes. Hence in an extrinsic
+2022-23
+
+Physics
+semiconductor doped with pentavalent impurity, electrons
+become the majority carriers and holes the minority carriers.
+These semiconductors are, therefore, known as n-type
+semiconductors. For n-type semiconductors, we have,
+n e >> nh
+(14.3)
+(ii) p-type semiconductor
+This is obtained when Si or Ge is doped with a trivalent impurity
+like Al, B, In, etc. The dopant has one valence electron less than
+Si or Ge and, therefore, this atom can form covalent bonds with
+neighbouring three Si atoms but does not have any electron to
+offer to the fourth Si atom. So the bond between the fourth
+neighbour and the trivalent atom has a vacancy or hole as shown
+in Fig. 14.8. Since the neighbouring Si atom in the lattice wants
+an electron in place of a hole, an electron in the outer orbit of
+an atom in the neighbourhood may jump to fill this vacancy,
+leaving a vacancy or hole at its own site. Thus the hole is
+available for conduction. Note that the trivalent foreign atom
+becomes effectively negatively charged when it shares fourth
+electron with neighbouring Si atom. Therefore, the dopant atom
+of p-type material can be treated as core of one negative charge
+along with its associated hole as shown in Fig. 14.8(b). It is
+obvious that one acceptor atom gives one hole. These holes are
+in addition to the intrinsically generated holes while the source
+of conduction electrons is only intrinsic generation. Thus, for
+such a material, the holes are the majority carriers and electrons
+FIGURE 14.8 (a) Trivalent
+are minority carriers. Therefore, extrinsic semiconductors doped
+acceptor atom (In, Al, B etc.)
+with trivalent impurity are called p-type semiconductors. For
+doped in tetravalent Si or Ge
+p-type semiconductors, the recombination process will reduce
+lattice giving p-type semiconthe number (n i )of intrinsically generated electrons to n e. We
+ductor. (b) Commonly used
+have, for p-type semiconductors
+schematic representation of
+(14.4)
+n h >> ne
+p-type material which shows
+only the fixed core of the
+Note that the crystal maintains an overall charge neutrality
+substituent acceptor with
+as the charge of additional charge carriers is just equal and
+one effective additional
+opposite to that of the ionised cores in the lattice.
+negative charge and its
+In extrinsic semiconductors, because of the abundance of
+associated hole.
+majority current carriers, the minority carriers produced
+thermally have more chance of meeting majority carriers and
+thus getting destroyed. Hence, the dopant, by adding a large number of
+current carriers of one type, which become the majority carriers, indirectly
+helps to reduce the intrinsic concentration of minority carriers.
+The semiconductor’s energy band structure is affected by doping. In
+the case of extrinsic semiconductors, additional energy states due to donor
+impurities (ED ) and acceptor impurities (EA ) also exist. In the energy band
+diagram of n-type Si semiconductor, the donor energy level E D is slightly
+below the bottom EC of the conduction band and electrons from this level
+move into the conduction band with very small supply of energy. At room
+temperature, most of the donor atoms get ionised but very few (~10 12)
+atoms of Si get ionised. So the conduction band will have most electrons
+476
+coming from the donor impurities, as shown in Fig. 14.9(a). Similarly,
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+for p-type semiconductor, the acceptor energy level EA is slightly above
+the top EV of the valence band as shown in Fig. 14.9(b). With very small
+supply of energy an electron from the valence band can jump to the level
+EA and ionise the acceptor negatively. (Alternately, we can also say that
+with very small supply of energy the hole from level EA sinks down into
+the valence band. Electrons rise up and holes fall down when they gain
+external energy.) At room temperature, most of the acceptor atoms get
+ionised leaving holes in the valence band. Thus at room temperature the
+density of holes in the valence band is predominantly due to impurity in
+the extrinsic semiconductor. The electron and hole concentration in a
+semiconductor in thermal equilibrium is given by
+nenh = ni2
+
+(14.5)
+
+Though the above description is grossly approximate and
+hypothetical, it helps in understanding the difference between metals,
+insulators and semiconductors (extrinsic and intrinsic) in a simple
+manner. The difference in the resistivity of C, Si and Ge depends upon
+the energy gap between their conduction and valence bands. For C
+(diamond), Si and Ge, the energy gaps are 5.4 eV, 1.1 eV and 0.7 eV,
+respectively. Sn also is a group IV element but it is a metal because the
+energy gap in its case is 0 eV.
+
+FIGURE 14.9 Energy bands of (a) n-type semiconductor at T > 0K, (b) p-type
+semiconductor at T > 0K.
+Example 14.2 Suppose a pure Si crystal has 5 × 1028 atoms m–3. It is
+doped by 1 ppm concentration of pentavalent As. Calculate the
+number of electrons and holes. Given that ni =1.5 × 1016 m–3.
+
+~ 4.5 × 109 m–3
+2022-23
+
+EXAMPLE 14.2
+
+Solution Note that thermally generated electrons (ni ~1016 m–3 ) are
+negligibly small as compared to those produced by doping.
+Therefore, ne ≈ ND.
+Since nenh = ni2, The number of holes
+nh = (2.25 × 1032 )/(5 ×1022 )
+
+477
+
+Physics
+14.5 p-n JUNCTION
+
+
+
+A p-n junction is the basic building block of many semiconductor devices
+like diodes, transistor, etc. A clear understanding of the junction behaviour
+is important to analyse the working of other semiconductor devices.
+We will now try to understand how a junction is formed and how the
+junction behaves under the influence of external applied voltage (also
+called bias).
+
+14.5.1 p-n junction formation
+
+Formation and working of p-n junction diode
+
+Consider a thin p-type silicon (p-Si) semiconductor wafer. By adding
+precisely a small quantity of pentavelent impurity, part of the p-Si wafer
+can be converted into n-Si. There are several processes by which a
+semiconductor can be formed. The wafer now contains p-region and
+n-region and a metallurgical junction between p-, and n- region.
+Two important processes occur during the formation of a p-n junction:
+diffusion and drift. We know that in an n-type semiconductor, the
+concentration of electrons (number of electrons per unit volume) is more
+compared to the concentration of holes. Similarly, in a p-type
+semiconductor, the concentration of holes is more than the concentration
+of electrons. During the formation of p-n junction, and due to the
+concentration gradient across p-, and n- sides, holes diffuse from p-side
+to n-side (p → n) and electrons diffuse from n-side to p-side (n → p). This
+motion of charge carries gives rise to diffusion current across the junction.
+When an electron diffuses from n → p, it leaves behind an ionised
+donor on n-side. This ionised donor (positive charge) is immobile as it is
+bonded to the surrounding atoms. As the electrons continue to diffuse
+from n → p, a layer of positive charge (or positive space-charge region) on
+n-side of the junction is developed.
+Similarly, when a hole diffuses from p → n due to the concentration
+gradient, it leaves behind an ionised acceptor (negative charge) which is
+immobile. As the holes continue to diffuse, a layer of negative charge (or
+negative space-charge region) on the p-side of the junction is developed.
+This space-charge region on either side of the junction together is known
+as depletion region as the electrons and holes taking part in the initial
+movement across the junction depleted the region of its
+free charges (Fig. 14.10). The thickness of depletion region
+is of the order of one-tenth of a micrometre. Due to the
+positive space-charge region on n-side of the junction and
+negative space charge region on p-side of the junction,
+an electric field directed from positive charge towards
+negative charge develops. Due to this field, an electron on
+p-side of the junction moves to n-side and a hole on nside of the junction moves to p-side. The motion of charge
+carriers due to the electric field is called drift. Thus a
+FIGURE 14.10 p-n junction
+drift current, which is opposite in direction to the diffusion
+formation process.
+478
+current (Fig. 14.10) starts.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+Initially, diffusion current is large and drift current is small.
+As the diffusion process continues, the space-charge regions
+on either side of the junction extend, thus increasing the electric
+field strength and hence drift current. This process continues
+until the diffusion current equals the drift current. Thus a p-n
+junction is formed. In a p-n junction under equilibrium there
+is no net current.
+The loss of electrons from the n-region and the gain of
+electron by the p-region causes a difference of potential across
+the junction of the two regions. The polarity of this potential is
+such as to oppose further flow of carriers so that a condition of
+equilibrium exists. Figure 14.11 shows the p-n junction at
+equilibrium and the potential across the junction. The
+n-material has lost electrons, and p material has acquired
+electrons. The n material is thus positive relative to the p
+material. Since this potential tends to prevent the movement of
+electron from the n region into the p region, it is often called a
+barrier potential.
+
+FIGURE 14.11 (a) Diode under
+equilibrium (V = 0), (b) Barrier
+potential under no bias.
+
+EXAMPLE 14.3
+
+Example 14.3 Can we take one slab of p-type semiconductor and
+physically join it to another n-type semiconductor to get p-n junction?
+Solution No! Any slab, howsoever flat, will have roughness much
+larger than the inter-atomic crystal spacing (~2 to 3 Å) and hence
+continuous contact at the atomic level will not be possible. The junction
+will behave as a discontinuity for the flowing charge carriers.
+
+14.6 SEMICONDUCTOR DIODE
+A semiconductor diode [Fig. 14.12(a)] is basically a
+p-n junction with metallic contacts provided at the
+ends for the application of an external voltage. It is a
+two terminal device. A p-n junction diode is
+symbolically represented as shown in Fig. 14.12(b).
+The direction of arrow indicates the conventional
+direction of current (when the diode is under forward
+bias). The equilibrium barrier potential can be altered
+by applying an external voltage V across the diode.
+The situation of p-n junction diode under equilibrium
+(without bias) is shown in Fig. 14.11(a) and (b).
+
+p
+
+n
+
+FIGURE 14.12 (a) Semiconductor diode,
+(b) Symbol for p-n junction diode.
+
+14.6.1 p-n junction diode under forward bias
+When an external voltage V is applied across a semiconductor diode such
+that p-side is connected to the positive terminal of the battery and n-side
+to the negative terminal [Fig. 14.13(a)], it is said to be forward biased.
+The applied voltage mostly drops across the depletion region and the
+voltage drop across the p-side and n-side of the junction is negligible.
+(This is because the resistance of the depletion region – a region where
+there are no charges – is very high compared to the resistance of n-side
+and p-side.) The direction of the applied voltage (V ) is opposite to the
+2022-23
+
+479
+
+Physics
+
+FIGURE 14.13 (a) p-n
+junction diode under forward
+bias, (b) Barrier potential
+(1) without battery, (2) Low
+battery voltage, and (3) High
+voltage battery.
+
+built-in potential V0. As a result, the depletion layer width
+decreases and the barrier height is reduced [Fig. 14.13(b)]. The
+effective barrier height under forward bias is (V0 – V ).
+If the applied voltage is small, the barrier potential will be
+reduced only slightly below the equilibrium value, and only a
+small number of carriers in the material—those that happen to
+be in the uppermost energy levels—will possess enough energy
+to cross the junction. So the current will be small. If we increase
+the applied voltage significantly, the barrier height will be reduced
+and more number of carriers will have the required energy. Thus
+the current increases.
+Due to the applied voltage, electrons from n-side cross the
+depletion region and reach p-side (where they are minority
+carries). Similarly, holes from p-side cross the junction and reach
+the n-side (where they are minority carries). This process under
+forward bias is known as minority carrier injection. At the
+junction boundary, on each side, the minority carrier
+concentration increases significantly compared to the locations
+far from the junction.
+Due to this concentration gradient, the injected electrons on
+p-side diffuse from the junction edge of p-side to the other end
+of p-side. Likewise, the injected holes on n-side diffuse from the
+junction edge of n-side to the other end of n-side
+(Fig. 14.14). This motion of charged carriers on either side
+gives rise to current. The total diode forward current is sum
+of hole diffusion current and conventional current due to
+electron diffusion. The magnitude of this current is usually
+in mA.
+
+14.6.2 p-n junction diode under reverse bias
+FIGURE 14.14 Forward bias
+minority carrier injection.
+
+480
+
+When an external voltage (V ) is applied across the diode such
+that n-side is positive and p-side is negative, it is said to be
+reverse biased [Fig.14.15(a)]. The applied voltage mostly
+drops across the depletion region. The direction of applied voltage is same
+as the direction of barrier potential. As a result, the barrier height increases
+and the depletion region widens due to the change in the electric field.
+The effective barrier height under reverse bias is (V0 + V ), [Fig. 14.15(b)].
+This suppresses the flow of electrons from n → p and holes from p → n.
+Thus, diffusion current, decreases enormously compared to the diode
+under forward bias.
+The electric field direction of the junction is such that if electrons on
+p-side or holes on n-side in their random motion come close to the
+junction, they will be swept to its majority zone. This drift of carriers
+gives rise to current. The drift current is of the order of a few µA. This is
+quite low because it is due to the motion of carriers from their minority
+side to their majority side across the junction. The drift current is also
+there under forward bias but it is negligible (µA) when compared with
+current due to injected carriers which is usually in mA.
+The diode reverse current is not very much dependent on the applied
+voltage. Even a small voltage is sufficient to sweep the minority carriers
+from one side of the junction to the other side of the junction. The current
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+is not limited by the magnitude of the applied voltage but is
+limited due to the concentration of the minority carrier on either
+side of the junction.
+The current under reverse bias is essentially voltage
+independent upto a critical reverse bias voltage, known as
+breakdown voltage (Vbr ). When V = Vbr, the diode reverse current
+increases sharply. Even a slight increase in the bias voltage causes
+large change in the current. If the reverse current is not limited by
+an external circuit below the rated value (specified by the
+manufacturer) the p-n junction will get destroyed. Once it exceeds
+the rated value, the diode gets destroyed due to overheating. This
+can happen even for the diode under forward bias, if the forward
+current exceeds the rated value.
+The circuit arrangement for studying the V-I characteristics
+of a diode, (i.e., the variation of current as a function of applied
+FIGURE 14.15 (a) Diode
+voltage) are shown in Fig. 14.16(a) and (b). The battery is connected
+under reverse bias,
+to the diode through a potentiometer (or reheostat) so that the
+(b) Barrier potential under
+applied voltage to the diode can be changed. For different values
+reverse bias.
+of voltages, the value of the current is noted. A graph between V
+and I is obtained as in Fig. 14.16(c). Note that in forward bias
+measurement, we use a milliammeter since the expected current is large
+(as explained in the earlier section) while a micrometer is used in reverse
+bias to measure the current. You can see in Fig. 14.16(c) that in forward
+
+FIGURE 14.16 Experimental circuit arrangement for studying V-I characteristics of
+a p-n junction diode (a) in forward bias, (b) in reverse bias. (c) Typical V-I
+481
+characteristics of a silicon diode.
+2022-23
+
+Physics
+bias, the current first increases very slowly, almost negligibly, till the
+voltage across the diode crosses a certain value. After the characteristic
+voltage, the diode current increases significantly (exponentially), even for
+a very small increase in the diode bias voltage. This voltage is called the
+threshold voltage or cut-in voltage (~0.2V for germanium diode and
+~0.7 V for silicon diode).
+For the diode in reverse bias, the current is very small (~µA) and almost
+remains constant with change in bias. It is called reverse saturation
+current. However, for special cases, at very high reverse bias (break down
+voltage), the current suddenly increases. This special action of the diode
+is discussed later in Section 14.8. The general purpose diode are not
+used beyond the reverse saturation current region.
+The above discussion shows that the p-n junction diode primerly
+allows the flow of current only in one direction (forward bias). The forward
+bias resistance is low as compared to the reverse bias resistance. This
+property is used for rectification of ac voltages as discussed in the next
+section. For diodes, we define a quantity called dynamic resistance as
+the ratio of small change in voltage ∆V to a small change in current ∆I:
+rd =
+
+∆V
+∆I
+
+(14.6)
+
+Example 14.4 The V-I characteristic of a silicon diode is shown in
+the Fig. 14.17. Calculate the resistance of the diode at (a) ID = 15 mA
+and (b) VD = –10 V.
+
+482
+
+EXAMPLE 14.4
+
+FIGURE 14.17
+
+Solution Considering the diode characteristics as a straight line
+between I = 10 mA to I = 20 mA passing through the origin, we can
+calculate the resistance using Ohm’s law.
+(a) From the curve, at I = 20 mA, V = 0.8 V; I = 10 mA, V = 0.7 V
+rf b = ∆V/∆I = 0.1V/10 mA = 10 Ω
+(b) From the curve at V = –10 V, I = –1 µA,
+Therefore,
+rrb = 10 V/1µA= 1.0 × 107 Ω
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+
+14.7 APPLICATION OF JUNCTION DIODE AS A RECTIFIER
+From the V-I characteristic of a junction diode we see that it allows current
+to pass only when it is forward biased. So if an alternating voltage is
+applied across a diode the current flows only in that part of the cycle
+when the diode is forward biased. This property
+is used to rectify alternating voltages and the
+circuit used for this purpose is called a rectifier.
+If an alternating voltage is applied across a
+diode in series with a load, a pulsating voltage will
+appear across the load only during the half cycles
+of the ac input during which the diode is forward
+biased. Such rectifier circuit, as shown in
+Fig. 14.18, is called a half-wave rectifier. The
+secondary of a transformer supplies the desired
+ac voltage across terminals A and B. When the
+voltage at A is positive, the diode is forward biased
+and it conducts. When A is negative, the diode is
+reverse-biased and it does not conduct. The reverse
+saturation current of a diode is negligible and can
+be considered equal to zero for practical purposes.
+(The reverse breakdown voltage of the diode must
+be sufficiently higher than the peak ac voltage at
+the secondary of the transformer to protect the
+diode from reverse breakdown.)
+Therefore, in the positive half-cycle of ac there
+FIGURE 14.18 (a) Half-wave rectifier
+is a current through the load resistor RL and we
+circuit, (b) Input ac voltage and output
+get an output voltage, as shown in Fig. 14.18(b),
+voltage waveforms from the rectifier circuit.
+whereas there is no current in the negative halfcycle. In the next positive half-cycle, again we get
+the output voltage. Thus, the output voltage, though still varying, is
+restricted to only one direction and is said to be rectified. Since the
+rectified output of this circuit is only for half of the input ac wave it is
+called as half-wave rectifier.
+The circuit using two diodes, shown in Fig. 14.19(a), gives output
+rectified voltage corresponding to both the positive as well as negative
+half of the ac cycle. Hence, it is known as full-wave rectifier. Here the
+p-side of the two diodes are connected to the ends of the secondary of the
+transformer. The n-side of the diodes are connected together and the
+output is taken between this common point of diodes and the midpoint
+of the secondary of the transformer. So for a full-wave rectifier the
+secondary of the transformer is provided with a centre tapping and so it
+is called centre-tap transformer. As can be seen from Fig.14.19(c) the
+voltage rectified by each diode is only half the total secondary voltage.
+Each diode rectifies only for half the cycle, but the two do so for alternate
+cycles. Thus, the output between their common terminals and the centretap of the transformer becomes a full-wave rectifier output. (Note that
+there is another circuit of full wave rectifier which does not need a centre483
+tap transformer but needs four diodes.) Suppose the input voltage to A
+2022-23
+
+Physics
+with respect to the centre tap at any instant
+is positive. It is clear that, at that instant,
+voltage at B being out of phase will be
+negative as shown in Fig.14.19(b). So, diode
+D1 gets forward biased and conducts (while
+D2 being reverse biased is not conducting).
+Hence, during this positive half cycle we get
+an output current (and a output voltage
+across the load resistor RL) as shown in
+Fig.14.19(c). In the course of the ac cycle
+when the voltage at A becomes negative with
+respect to centre tap, the voltage at B would
+be positive. In this part of the cycle diode
+D1 would not conduct but diode D2 would,
+giving an output current and output
+voltage (across RL ) during the negative half
+cycle of the input ac. Thus, we get output
+voltage during both the positive as well as
+the negative half of the cycle. Obviously,
+this is a more efficient circuit for getting
+rectified voltage or current than the halfwave rectifier.
+The rectified voltage is in the form of
+pulses of the shape of half sinusoids.
+Though it is unidirectional it does not have
+a steady value. To get steady dc output
+from the pulsating voltage normally a
+capacitor is connected across the output
+terminals (parallel to the load RL). One can
+also use an inductor in series with RL for
+FIGURE 14.19 (a) A Full-wave rectifier
+the same purpose. Since these additional
+circuit; (b) Input wave forms given to the
+circuits appear to filter out the ac ripple
+diode D1 at A and to the diode D2 at B;
+and give a pure dc voltage, so they are
+(c) Output waveform across the
+called
+filters.
+load RL connected in the full-wave
+Now
+we shall discuss the role of
+rectifier circuit.
+capacitor in filtering. When the voltage
+across the capacitor is rising, it gets
+charged. If there is no external load, it remains charged to the peak voltage
+of the rectified output. When there is a load, it gets discharged through
+the load and the voltage across it begins to fall. In the next half-cycle of
+rectified output it again gets charged to the peak value (Fig. 14.20). The
+rate of fall of the voltage across the capacitor depends inversely upon the
+product of capacitance C and the effective resistance RL used in the circuit
+and is called the time constant. To make the time constant large value of
+C should be large. So capacitor input filters use large capacitors. The
+output voltage obtained by using capacitor input filter is nearer to the
+peak voltage of the rectified voltage. This type of filter is most widely
+484
+used in power supplies.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+
+FIGURE 14.20 (a) A full-wave rectifier with capacitor filter, (b) Input and output
+voltage of rectifier in (a).
+
+14.8 SPECIAL PURPOSE p-n JUNCTION DIODES
+In the section, we shall discuss some devices which are basically junction
+diodes but are developed for different applications.
+
+14.8.1 Zener diode
+It is a special purpose semiconductor diode, named after its inventor
+C. Zener. It is designed to operate under reverse bias in the breakdown
+region and used as a voltage regulator. The symbol for Zener diode is
+shown in Fig. 14.21(a).
+Zener diode is fabricated by heavily doping both p-, and
+n- sides of the junction. Due to this, depletion region formed
+is very thin (<10–6 m) and the electric field of the junction is
+extremely high (~5×106 V/m) even for a small reverse bias
+voltage of about 5V. The I-V characteristics of a Zener diode is
+shown in Fig. 14.21(b). It is seen that when the applied reverse
+bias voltage(V ) reaches the breakdown voltage (Vz ) of the Zener
+diode, there is a large change in the current. Note that after
+the breakdown voltage Vz, a large change in the current can
+be produced by almost insignificant change in the reverse bias
+voltage. In other words, Zener voltage remains constant, even
+though current through the Zener diode varies over a wide
+range. This property of the Zener diode is used for regulating
+supply voltages so that they are constant.
+Let us understand how reverse current suddenly increases
+at the breakdown voltage. We know that reverse current is
+due to the flow of electrons (minority carriers) from p → n and
+holes from n → p. As the reverse bias voltage is increased, the
+electric field at the junction becomes significant. When the
+reverse bias voltage V = Vz, then the electric field strength is
+high enough to pull valence electrons from the host atoms on
+the p-side which are accelerated to n-side. These electrons
+account for high current observed at the breakdown. The
+FIGURE 14.21 Zener diode,
+emission of electrons from the host atoms due to the high
+(a) symbol, (b) I-V
+electric field is known as internal field emission or field
+characteristics.
+ionisation. The electric field required for field ionisation is of
+485
+the order of 106 V/m.
+2022-23
+
+Physics
+Zener diode as a voltage regulator
+We know that when the ac input voltage of a rectifier fluctuates, its rectified
+output also fluctuates. To get a constant dc voltage from the dc
+unregulated output of a rectifier, we use a Zener diode. The circuit diagram
+of a voltage regulator using a Zener diode is shown in Fig. 14.22.
+The unregulated dc voltage (filtered output of a
+rectifier) is connected to the Zener diode through a series
+resistance Rs such that the Zener diode is reverse biased.
+If the input voltage increases, the current through Rs
+and Zener diode also increases. This increases the
+voltage drop across Rs without any change in the
+voltage across the Zener diode. This is because in the
+breakdown region, Zener voltage remains constant even
+though the current through the Zener diode changes.
+Similarly, if the input voltage decreases, the current
+through Rs and Zener diode also decreases. The voltage
+drop across Rs decreases without any change in the
+FIGURE 14.22 Zener diode as DC
+voltage across the Zener diode. Thus any increase/
+voltage regulator
+decrease in the input voltage results in, increase/
+decrease of the voltage drop across Rs without any
+change in voltage across the Zener diode. Thus the Zener diode acts as a
+voltage regulator. We have to select the Zener diode according to the
+required output voltage and accordingly the series resistance Rs.
+
+EXAMPLE 14.5
+
+Example 14.5 In a Zener regulated power supply a Zener diode with
+VZ = 6.0 V is used for regulation. The load current is to be 4.0 mA and
+the unregulated input is 10.0 V. What should be the value of series
+resistor RS?
+Solution
+The value of RS should be such that the current through the Zener
+diode is much larger than the load current. This is to have good load
+regulation. Choose Zener current as five times the load current, i.e.,
+IZ = 20 mA. The total current through RS is, therefore, 24 mA. The
+voltage drop across R S is 10.0 – 6.0 = 4.0 V. This gives
+RS = 4.0V/(24 × 10–3) A = 167 Ω. The nearest value of carbon resistor
+is 150 Ω. So, a series resistor of 150 Ω is appropriate. Note that slight
+variation in the value of the resistor does not matter, what is important
+is that the current IZ should be sufficiently larger than IL.
+
+14.8.2 Optoelectronic junction devices
+
+486
+
+We have seen so far, how a semiconductor diode behaves under applied
+electrical inputs. In this section, we learn about semiconductor diodes in
+which carriers are generated by photons (photo-excitation). All these
+devices are called optoelectronic devices. We shall study the functioning
+of the following optoelectronic devices:
+(i) Photodiodes used for detecting optical signal (photodetectors).
+(ii) Light emitting diodes (LED) which convert electrical energy into light.
+(iii) Photovoltaic devices which convert optical radiation into electricity
+(solar cells).
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+(i) Photodiode
+A Photodiode is again a special purpose p-n
+junction diode fabricated with a transparent
+window to allow light to fall on the diode. It is
+operated under reverse bias. When the photodiode
+is illuminated with light (photons) with energy (hν)
+greater than the energy gap (E g ) of the
+semiconductor, then electron-hole pairs are
+generated due to the absorption of photons. The
+diode is fabricated such that the generation of
+e-h pairs takes place in or near the depletion region
+of the diode. Due to electric field of the junction,
+electrons and holes are separated before they
+recombine. The direction of the electric field is such
+that electrons reach n-side and holes reach p-side.
+Electrons are collected on n-side and holes are
+collected on p-side giving rise to an emf. When an
+external load is connected, current flows. The
+magnitude of the photocurrent depends on the
+intensity of incident light (photocurrent is
+proportional to incident light intensity).
+It is easier to observe the change in the current
+with change in the light intensity, if a reverse bias
+is applied. Thus photodiode can be used as a
+photodetector to detect optical signals. The circuit
+diagram used for the measurement of I-V
+characteristics of a photodiode is shown in
+Fig. 14.23(a) and a typical I-V characteristics in
+Fig. 14.23(b).
+
+FIGURE 14.23 (a) An illuminated
+photodiode under reverse bias , (b) I-V
+characteristics of a photodiode for different
+illumination intensity I4 > I3 > I2 > I1.
+
+Example 14.6 The current in the forward bias is known to be more
+(~mA) than the current in the reverse bias (~µA). What is the reason
+then to operate the photodiodes in reverse bias?
+Solution Consider the case of an n-type semiconductor. Obviously,
+the majority carrier density (n) is considerably larger than the minority
+hole density p (i.e., n >> p). On illumination, let the excess electrons
+and holes generated be ∆n and ∆p, respectively:
+p′ = p + ∆p
+Here n ′ and p ′ are the electron and hole concentrations* at any
+particular illumination and n and p are carriers concentration when
+there is no illumination. Remember ∆n = ∆p and n >> p. Hence, the
+
+* Note that, to create an e-h pair, we spend some energy (photoexcitation, thermal
+excitation, etc.). Therefore when an electron and hole recombine the energy is
+released in the form of light (radiative recombination) or heat (non-radiative
+recombination). It depends on semiconductor and the method of fabrication of
+the p-n junction. For the fabrication of LEDs, semiconductors like GaAs, GaAsGaP are used in which radiative recombination dominates.
+2022-23
+
+EXAMPLE 14.6
+
+n′ = n + ∆n
+
+487
+
+EXAMPLE 14.6
+
+Physics
+fractional change in the majority carriers (i.e., ∆n/n ) would be much
+less than that in the minority carriers (i.e., ∆p/p). In general, we can
+state that the fractional change due to the photo-effects on the
+minority carrier dominated reverse bias current is more easily
+measurable than the fractional change in the forward bias current.
+Hence, photodiodes are preferably used in the reverse bias condition
+for measuring light intensity.
+
+(ii) Light emitting diode
+
+488
+
+It is a heavily doped p-n junction which under forward bias emits
+spontaneous radiation. The diode is encapsulated with a transparent
+cover so that emitted light can come out.
+When the diode is forward biased, electrons are sent from n → p (where
+they are minority carriers) and holes are sent from p → n (where they are
+minority carriers). At the junction boundary the concentration of minority
+carriers increases compared to the equilibrium concentration (i.e., when
+there is no bias). Thus at the junction boundary on either side of the
+junction, excess minority carriers are there which recombine with majority
+carriers near the junction. On recombination, the energy is released in
+the form of photons. Photons with energy equal to or slightly less than
+the band gap are emitted. When the forward current of the diode is small,
+the intensity of light emitted is small. As the forward current increases,
+intensity of light increases and reaches a maximum. Further increase in
+the forward current results in decrease of light intensity. LEDs are biased
+such that the light emitting efficiency is maximum.
+The V-I characteristics of a LED is similar to that of a Si junction
+diode. But the threshold voltages are much higher and slightly different
+for each colour. The reverse breakdown voltages of LEDs are very low,
+typically around 5V. So care should be taken that high reverse voltages
+do not appear across them.
+LEDs that can emit red, yellow, orange, green and blue light are
+commercially available. The semiconductor used for fabrication of visible
+LEDs must at least have a band gap of 1.8 eV (spectral range of visible
+light is from about 0.4 µm to 0.7 µm, i.e., from about 3 eV to 1.8 eV). The
+compound semiconductor Gallium Arsenide – Phosphide (GaAs1–x Px ) is
+used for making LEDs of different colours. GaAs0.6 P0.4 (Eg ~ 1.9 eV) is
+used for red LED. GaAs (Eg ~ 1.4 eV) is used for making infrared LED.
+These LEDs find extensive use in remote controls, burglar alarm systems,
+optical communication, etc. Extensive research is being done for
+developing white LEDs which can replace incandescent lamps.
+LEDs have the following advantages over conventional incandescent
+low power lamps:
+(i) Low operational voltage and less power.
+(ii) Fast action and no warm-up time required.
+(iii) The bandwidth of emitted light is 100 Å to 500 Å or in other words it
+is nearly (but not exactly) monochromatic.
+(iv) Long life and ruggedness.
+(v) Fast on-off switching capability.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+(iii) Solar cell
+A solar cell is basically a p-n junction which
+generates emf when solar radiation falls on the
+p-n junction. It works on the same principle
+(photovoltaic effect) as the photodiode, except that
+no external bias is applied and the junction area
+is kept much larger for solar radiation to be
+incident because we are interested in more power.
+A simple p-n junction solar cell is shown in
+Fig. 14.24.
+A p-Si wafer of about 300 µm is taken over
+which a thin layer (~0.3 µm) of n-Si is grown on
+one-side by diffusion process. The other side of
+p-Si is coated with a metal (back contact). On the
+top of n-Si layer, metal finger electrode (or metallic
+FIGURE 14.24 (a) Typical p-n junction
+grid) is deposited. This acts as a front contact. The
+solar cell; (b) Cross-sectional view.
+metallic grid occupies only a very small fraction
+of the cell area (<15%) so that light can be incident
+on the cell from the top.
+The generation of emf by a solar cell, when light falls on, it is due to
+the following three basic processes: generation, separation and collection—
+(i) generation of e-h pairs due to light (with hν > Eg )
+close to the junction; (ii) separation of electrons and
+holes due to electric field of the depletion region.
+Electrons are swept to n-side and holes to p-side;
+(iii) the electrons reaching the n-side are collected by
+the front contact and holes reaching p-side are collected
+by the back contact. Thus p-side becomes positive and
+n-side becomes negative giving rise to photovoltage.
+When an external load is connected as shown in
+the Fig. 14.25(a) a photocurrent IL flows through the
+load. A typical I-V characteristics of a solar cell is shown
+in the Fig. 14.25(b).
+Note that the I – V characteristics of solar cell is
+drawn in the fourth quadrant of the coordinate axes.
+This is because a solar cell does not draw current but
+supplies the same to the load.
+Semiconductors with band gap close to 1.5 eV are
+ideal materials for solar cell fabrication. Solar cells are
+made with semiconductors like Si (Eg = 1.1 eV), GaAs
+(Eg = 1.43 eV), CdTe (Eg = 1.45 eV), CuInSe2 (Eg = 1.04
+eV), etc. The important criteria for the selection of a
+material for solar cell fabrication are (i) band gap (~1.0
+to 1.8 eV), (ii) high optical absorption (~104 cm–1), (iii)
+electrical conductivity, (iv) availability of the raw
+FIGURE 14.25 (a) A typical
+material, and (v) cost. Note that sunlight is not always
+illuminated
+p-n junction solar cell;
+required for a solar cell. Any light with photon energies
+(b) I-V characteristics of a solar cell.
+greater than the bandgap will do. Solar cells are used
+to power electronic devices in satellites and space
+vehicles and also as power supply to some calculators. Production of
+low-cost photovoltaic cells for large-scale solar energy is a topic
+489
+for research.
+2022-23
+
+Physics
+Example 14.7 Why are Si and GaAs are preferred materials for
+solar cells?
+Solution The solar radiation spectrum received by us is shown in
+Fig. 14.26.
+
+EXAMPLE 14.7
+
+FIGURE 14.26
+
+The maxima is near 1.5 eV. For photo-excitation, hν > Eg. Hence,
+semiconductor with band gap ~1.5 eV or lower is likely to give better
+solar conversion efficiency. Silicon has Eg ~ 1.1 eV while for GaAs it is
+~1.53 eV. In fact, GaAs is better (in spite of its higher band gap) than
+Si because of its relatively higher absorption coefficient. If we choose
+materials like CdS or CdSe (Eg ~ 2.4 eV), we can use only the high
+energy component of the solar energy for photo-conversion and a
+significant part of energy will be of no use.
+The question arises: why we do not use material like PbS (Eg ~ 0.4 eV)
+which satisfy the condition hν > Eg for ν maxima corresponding to the
+solar radiation spectra? If we do so, most of the solar radiation will be
+absorbed on the top-layer of solar cell and will not reach in or near
+the depletion region. For effective electron-hole separation, due to
+the junction field, we want the photo-generation to occur in the
+junction region only.
+
+14.9 DIGITAL ELECTRONICS
+
+490
+
+AND
+
+LOGIC GATES
+
+In electronics circuits like amplifiers, oscillators, introduced to you in
+earlier sections, the signal (current or voltage) has been in the form of
+continuous, time-varying voltage or current. Such signals are called
+continuous or analog signals. A typical analog signal is shown in Figure.
+14.27(a). Fig. 14.27(b) shows a pulse waveform in which only discrete
+values of voltages are possible. It is convenient to use binary numbers
+to represent such signals. A binary number has only two digits ‘0’ (say,
+0V) and ‘1’ (say, 5V). In digital electronics we use only these two levels of
+voltage as shown in Fig. 14.27(b). Such signals are called Digital Signals.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+In digital circuits only two values (represented by 0 or 1) of the input and
+output voltage are permissible.
+This section is intended to provide the first step in our understanding
+of digital electronics. We shall restrict our study to some basic building
+blocks of digital electronics (called Logic Gates) which process the digital
+signals in a specific manner. Logic gates are used in calculators, digital
+watches, computers, robots, industrial control systems, and in
+telecommunications.
+A light switch in your house can be used as an example of a digital
+circuit. The light is either ON or OFF depending on the switch position.
+When the light is ON, the output value is ‘1’. When the light is OFF the
+output value is ‘0’. The inputs are the position of the light switch. The
+switch is placed either in the ON or OFF position to activate the light.
+
+FIGURE 14.27 (a) Analog signal, (b) Digital signal.
+
+14.9.1 Logic gates
+A gate is a digital circuit that follows curtain logical relationship
+between the input and output voltages. Therefore, they are generally
+known as logic gates — gates because they control the flow of
+information. The five common logic gates used are NOT, AND, OR,
+NAND, NOR. Each logic gate is indicated by a symbol and its function
+Input
+Output
+is defined by a truth table that shows all the possible input logic level
+combinations with their respective output logic levels. Truth tables
+A
+Y
+help understand the behaviour of logic gates. These logic gates can be
+realised using semiconductor devices.
+0
+1
+(i) NOT gate
+This is the most basic gate, with one input and one output. It produces
+1
+0
+a ‘1’ output if the input is ‘0’ and vice-versa. That is, it produces an
+(b)
+inverted version of the input at its output. This is why it is also known
+FIGURE 14.28
+as an inverter. The commonly used symbol together with the truth
+(a) Logic symbol,
+table for this gate is given in Fig. 14.28.
+(b) Truth table of
+(ii) OR Gate
+NOT gate.
+An OR gate has two or more inputs with one output. The logic symbol
+and truth table are shown in Fig. 14.29. The output Y is 1 when either
+input A or input B or both are 1s, that is, if any of the input is high, the
+491
+output is high.
+2022-23
+
+Physics
+Input
+
+Output
+
+A
+
+B
+
+Y
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+0
+
+1
+
+1
+
+1
+
+1
+(b)
+
+FIGURE 14.29 (a) Logic symbol (b) Truth table of OR gate.
+
+Apart from carrying out the above mathematical logic operation, this
+gate can be used for modifying the pulse waveform as explained in the
+following example.
+Example 14.8 Justify the output waveform (Y) of the OR gate for the
+following inputs A and B given in Fig. 14.30.
+
+EXAMPLE 14.8
+
+Solution Note the following:
+A = 0, B = 0;
+• At t < t1;
+A = 1, B = 0;
+• For t1 to t2;
+A = 1, B = 1;
+• For t2 to t3;
+A = 0, B = 1;
+• For t3 to t4;
+A = 0, B = 0;
+• For t4 to t5;
+A = 1, B = 0;
+• For t5 to t6;
+A = 0, B = 1;
+• For t > t6;
+Therefore the waveform Y will be
+
+Input
+
+Output
+
+A
+
+B
+
+Y
+
+0
+
+0
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+1
+
+1
+
+Hence Y = 0
+Hence Y = 1
+Hence Y = 1
+Hence Y = 1
+Hence Y = 0
+Hence Y = 1
+Hence Y = 1
+as shown in the Fig. 14.30.
+
+FIGURE 14.30
+
+(iii) AND Gate
+An AND gate has two or more inputs and one output. The output Y of
+AND gate is 1 only when input A and input B are both 1. The logic
+symbol and truth table for this gate are given in Fig. 14.31
+
+(b)
+
+492
+
+FIGURE 14.31 (a) Logic symbol, (b) Truth table of AND gate.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+Example 14.9 Take A and B input waveforms similar to that in
+Example 14.8. Sketch the output waveform obtained from AND gate.
+Solution
+A = 0, B = 0;
+• For t ≤ t1;
+A = 1, B = 0;
+• For t1 to t2;
+A = 1, B = 1;
+• For t2 to t3;
+A = 0, B = 1;
+• For t3 to t4;
+A = 0, B = 0;
+• For t4 to t5;
+A = 1, B = 0;
+• For t5 to t6;
+A = 0, B = 1;
+• For t > t6;
+Based on the above, the output waveform for AND gate
+as given below.
+
+Hence Y = 0
+Hence Y = 0
+Hence Y = 1
+Hence Y = 0
+Hence Y = 0
+Hence Y = 0
+Hence Y = 0
+can be drawn
+
+EXAMPLE 14.9
+
+FIGURE 14.32
+
+(iv) NAND Gate
+This is an AND gate followed by a NOT gate. If inputs A and B are both
+‘1’, the output Y is not ‘1’. The gate gets its name from this NOT AND
+behaviour. Figure 14.33 shows the symbol and truth table of NAND gate.
+NAND gates are also called Universal Gates since by using these
+gates you can realise other basic gates like OR, AND and NOT (Exercises
+14.12 and 14.13).
+Input
+Output
+A
+
+B
+
+Y
+
+0
+
+0
+
+1
+
+0
+
+1
+
+1
+
+1
+
+0
+
+1
+
+1
+
+1
+
+0
+
+(b)
+
+FIGURE 14.33 (a) Logic symbol, (b) Truth table of NAND gate.
+
+Solution
+• For t < t1;
+• For t1 to t2;
+• For t2 to t3;
+• For t3 to t4;
+
+A
+A
+A
+A
+
+=
+=
+=
+=
+
+1,
+0,
+0,
+1,
+
+B
+B
+B
+B
+
+=
+=
+=
+=
+
+1;
+0;
+1;
+0;
+
+Hence
+Hence
+Hence
+Hence
+
+Y
+Y
+Y
+Y
+
+=
+=
+=
+=
+
+0
+1
+1
+1
+2022-23
+
+EXAMPLE 14.10
+
+Example 14.10 Sketch the output Y from a NAND gate having inputs
+A and B given below:
+
+493
+
+Physics
+A = 1, B = 1;
+A = 0, B = 0;
+A = 0, B = 1;
+
+EXAMPLE 14.10
+
+• For t4 to t5;
+• For t5 to t6;
+• For t > t6;
+
+Hence Y = 0
+Hence Y = 1
+Hence Y = 1
+
+FIGURE 14.34
+
+(v) NOR Gate
+It has two or more inputs and one output. A NOT- operation applied
+after OR gate gives a NOT-OR gate (or simply NOR gate). Its output Y is
+‘1’ only when both inputs A and B are ‘0’, i.e., neither one input nor the
+other is ‘1’. The symbol and truth table for NOR gate is given in
+Fig. 14.35.
+Input
+Output
+A
+
+B
+
+Y
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+(b)
+
+FIGURE 14.35 (a) Logic symbol, (b) Truth table of NOR gate.
+
+NOR gates are considered as universal gates because you can obtain
+all the gates like AND, OR, NOT by using only NOR gates (Exercises 14.14
+and 14.15).
+
+FASTER
+
+AND SMALLER: THE FUTURE OF COMPUTER TECHNOLOGY
+
+The Integrated Chip (IC) is at the heart of all computer systems. In fact ICs are found in
+almost all electrical devices like cars, televisions, CD players, cell phones etc. The
+miniaturisation that made the modern personal computer possible could never have
+happened without the IC. ICs are electronic devices that contain many transistors, resistors,
+capacitors, connecting wires – all in one package. You must have heard of the
+
+494
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+microprocessor. The microprocessor is an IC that processes all information in a computer,
+like keeping track of what keys are pressed, running programmes, games etc. The IC was
+first invented by Jack Kilky at Texas Instruments in 1958 and he was awarded Nobel Prize
+for this in 2000. ICs are produced on a piece of semiconductor crystal (or chip) by a process
+called photolithography. Thus, the entire Information Technology (IT) industry hinges on
+semiconductors. Over the years, the complexity of ICs has increased while the size of its
+features continued to shrink. In the past five decades, a dramatic miniaturisation in
+computer technology has made modern day computers faster and smaller. In the 1970s,
+Gordon Moore, co-founder of INTEL, pointed out that the memory capacity of a chip (IC)
+approximately doubled every one and a half years. This is popularly known as Moore’s
+law. The number of transistors per chip has risen exponentially and each year computers
+are becoming more powerful, yet cheaper than the year before. It is intimated from current
+trends that the computers available in 2020 will operate at 40 GHz (40,000 MHz) and
+would be much smaller, more efficient and less expensive than present day computers.
+The explosive growth in the semiconductor industry and computer technology is best
+expressed by a famous quote from Gordon Moore: “If the auto industry advanced as rapidly
+as the semiconductor industry, a Rolls Royce would get half a million miles per gallon, and
+it would be cheaper to throw it away than to park it”.
+
+SUMMARY
+1.
+2.
+
+3.
+
+4.
+5.
+
+6.
+
+7.
+8.
+
+9.
+
+Semiconductors are the basic materials used in the present solid state
+electronic devices like diode, transistor, ICs, etc.
+Lattice structure and the atomic structure of constituent elements
+decide whether a particular material will be insulator, metal or
+semiconductor.
+Metals have low resistivity (10–2 to 10–8 Ω m), insulators have very high
+resistivity (>108 Ω m–1), while semiconductors have intermediate values
+of resistivity.
+Semiconductors are elemental (Si, Ge) as well as compound (GaAs,
+CdS, etc.).
+Pure semiconductors are called ‘intrinsic semiconductors’. The presence
+of charge carriers (electrons and holes) is an ‘intrinsic’ property of the
+material and these are obtained as a result of thermal excitation. The
+number of electrons (ne ) is equal to the number of holes (nh ) in intrinsic
+conductors. Holes are essentially electron vacancies with an effective
+positive charge.
+The number of charge carriers can be changed by ‘doping’ of a suitable
+impurity in pure semiconductors. Such semiconductors are known as
+extrinsic semiconductors. These are of two types (n-type and p-type).
+In n-type semiconductors, ne >> nh while in p-type semiconductors nh >> ne.
+n-type semiconducting Si or Ge is obtained by doping with pentavalent
+atoms (donors) like As, Sb, P, etc., while p-type Si or Ge can be obtained
+by doping with trivalent atom (acceptors) like B, Al, In etc.
+nenh = ni2 in all cases. Further, the material possesses an overall charge
+neutrality.
+
+495
+2022-23
+
+Physics
+10. There are two distinct band of energies (called valence band and
+conduction band) in which the electrons in a material lie. Valence
+band energies are low as compared to conduction band energies. All
+energy levels in the valence band are filled while energy levels in the
+conduction band may be fully empty or partially filled. The electrons in
+the conduction band are free to move in a solid and are responsible for
+the conductivity. The extent of conductivity depends upon the energy
+gap (Eg ) between the top of valence band (EV ) and the bottom of the
+conduction band EC. The electrons from valence band can be excited by
+heat, light or electrical energy to the conduction band and thus, produce
+a change in the current flowing in a semiconductor.
+11. For insulators Eg > 3 eV, for semiconductors Eg is 0.2 eV to 3 eV, while
+for metals Eg ≈ 0.
+12. p-n junction is the ‘key’ to all semiconductor devices. When such a
+junction is made, a ‘depletion layer’ is formed consisting of immobile
+ion-cores devoid of their electrons or holes. This is responsible for a
+junction potential barrier.
+13. By changing the external applied voltage, junction barriers can be
+changed. In forward bias (n-side is connected to negative terminal of the
+battery and p-side is connected to the positive), the barrier is decreased
+while the barrier increases in reverse bias. Hence, forward bias current
+is more (mA) while it is very small (µA) in a p-n junction diode.
+14. Diodes can be used for rectifying an ac voltage (restricting the ac voltage
+to one direction). With the help of a capacitor or a suitable filter, a dc
+voltage can be obtained.
+15. There are some special purpose diodes.
+16. Zener diode is one such special purpose diode. In reverse bias, after a
+certain voltage, the current suddenly increases (breakdown voltage) in
+a Zener diode. This property has been used to obtain voltage regulation.
+17. p-n junctions have also been used to obtain many photonic or
+optoelectronic devices where one of the participating entity is ‘photon’:
+(a) Photodiodes in which photon excitation results in a change of reverse
+saturation current which helps us to measure light intensity; (b) Solar
+cells which convert photon energy into electricity; (c) Light Emitting
+Diode and Diode Laser in which electron excitation by a bias voltage
+results in the generation of light.
+18. There are some special circuits which handle the digital data consisting
+of 0 and 1 levels. This forms the subject of Digital Electronics.
+19. The important digital circuits performing special logic operations are
+called logic gates. These are: OR, AND, NOT, NAND, and NOR gates.
+
+POINTS TO PONDER
+1.
+
+2.
+
+496
+
+The energy bands (EC or EV ) in the semiconductors are space delocalised
+which means that these are not located in any specific place inside the
+solid. The energies are the overall averages. When you see a picture in
+which EC or EV are drawn as straight lines, then they should be
+respectively taken simply as the bottom of conduction band energy levels
+and top of valence band energy levels.
+In elemental semiconductors (Si or Ge), the n-type or p-type
+semiconductors are obtained by introducing ‘dopants’ as defects. In
+compound semiconductors, the change in relative stoichiometric ratio
+can also change the type of semiconductor. For example, in ideal GaAs
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+
+3.
+
+the ratio of Ga:As is 1:1 but in Ga-rich or As-rich GaAs it could
+respectively be Ga1.1 As0.9 or Ga0.9 As1.1. In general, the presence of
+defects control the properties of semiconductors in many ways.
+In modern day circuit, many logical gates or circuits are integrated in
+one single ‘Chip’. These are known as Intgrated circuits (IC).
+
+EXERCISES
+14.1
+
+14.2
+14.3
+
+14.4
+
+14.5
+
+14.6
+
+14.7
+
+In an n-type silicon, which of the following statement is true:
+(a) Electrons are majority carriers and trivalent atoms are the
+dopants.
+(b) Electrons are minority carriers and pentavalent atoms are the
+dopants.
+(c) Holes are minority carriers and pentavalent atoms are the
+dopants.
+(d) Holes are majority carriers and trivalent atoms are the dopants.
+Which of the statements given in Exercise 14.1 is true for p-type
+semiconductos.
+Carbon, silicon and germanium have four valence electrons each.
+These are characterised by valence and conduction bands separated
+by energy band gap respectively equal to (Eg)C, (Eg)Si and (Eg)Ge. Which
+of the following statements is true?
+(a) (Eg)Si < (Eg)Ge < (Eg)C
+(b) (Eg)C < (Eg)Ge > (Eg)Si
+(c) (Eg)C > (Eg)Si > (Eg)Ge
+(d) (Eg)C = (Eg)Si = (Eg)Ge
+In an unbiased p-n junction, holes diffuse from the p-region to
+n-region because
+(a) free electrons in the n-region attract them.
+(b) they move across the junction by the potential difference.
+(c) hole concentration in p-region is more as compared to n-region.
+(d) All the above.
+When a forward bias is applied to a p-n junction, it
+(a) raises the potential barrier.
+(b) reduces the majority carrier current to zero.
+(c) lowers the potential barrier.
+(d) None of the above.
+In half-wave rectification, what is the output frequency if the input
+frequency is 50 Hz. What is the output frequency of a full-wave rectifier
+for the same input frequency.
+A p-n photodiode is fabricated from a semiconductor with band gap
+of 2.8 eV. Can it detect a wavelength of 6000 nm?
+
+497
+2022-23
+
+Physics
+ADDITIONAL EXERCISES
+14.8
+
+14.9
+
+The number of silicon atoms per m 3 is 5 × 1028. This is doped
+simultaneously with 5 × 1022 atoms per m3 of Arsenic and 5 × 1020
+per m3 atoms of Indium. Calculate the number of electrons and holes.
+Given that ni = 1.5 × 1016 m–3. Is the material n-type or p-type?
+In an intrinsic semiconductor the energy gap Eg is 1.2eV. Its hole
+mobility is much smaller than electron mobility and independent of
+temperature. What is the ratio between conductivity at 600K and
+that at 300K? Assume that the temperature dependence of intrinsic
+carrier concentration ni is given by
+
+where n0 is a constant.
+14.10 In a p-n junction diode, the current I can be expressed as
+
+where I 0 is called the reverse saturation current, V is the voltage
+across the diode and is positive for forward bias and negative for
+reverse bias, and I is the current through the diode, k B is the
+Boltzmann constant (8.6×10 –5 eV/K) and T is the absolute
+temperature. If for a given diode I0 = 5 × 10–12 A and T = 300 K, then
+(a) What will be the forward current at a forward voltage of 0.6 V?
+(b) What will be the increase in the current if the voltage across the
+diode is increased to 0.7 V?
+(c) What is the dynamic resistance?
+(d) What will be the current if reverse bias voltage changes from 1 V
+to 2 V?
+14.11 You are given the two circuits as shown in Fig. 14.36. Show that
+circuit (a) acts as OR gate while the circuit (b) acts as AND gate.
+
+FIGURE 14.36
+
+14.12 Write the truth table for a NAND gate connected as given in
+Fig. 14.37.
+
+FIGURE 14.37
+
+498
+
+Hence identify the exact logic operation carried out by this circuit.
+2022-23
+
+Semiconductor Electronics:
+Materials, Devices and
+Simple Circuits
+14.13 You are given two circuits as shown in Fig. 14.38, which consist
+of NAND gates. Identify the logic operation carried out by the two
+circuits.
+
+FIGURE 14.38
+
+14.14 Write the truth table for circuit given in Fig. 14.39 below consisting
+of NOR gates and identify the logic operation (OR, AND, NOT) which
+this circuit is performing.
+
+FIGURE 14.39
+
+(Hint: A = 0, B = 1 then A and B inputs of second NOR gate will be 0
+and hence Y=1. Similarly work out the values of Y for other
+combinations of A and B. Compare with the truth table of OR, AND,
+NOT gates and find the correct one.)
+14.15 Write the truth table for the circuits given in Fig. 14.40 consisting of
+NOR gates only. Identify the logic operations (OR, AND, NOT) performed
+by the two circuits.
+
+FIGURE 14.40
+
+499
+2022-23
+
+Physics
+
+ANSWERS
+
+CHAPTER 9
+9.1
+9.2
+9.3
+
+v = –54 cm. The image is real, inverted and magnified. The size of the
+image is 5.0 cm. As u → f, v → ∞; for u < f, image is virtual.
+v = 6.7 cm. Magnification = 5/9, i.e., the size of the image is 2.5 cm. As
+u → ∞; v → f (but never beyond) while m → 0.
+1.33; 1.7 cm
+
+9.4
+
+nga = 1.51; n wa = 1.32; ngw = 1.144; which gives sin r = 0.6181 i.e.,
+r ~ 38°.
+
+9.5
+
+r = 0.8 × tan ic and sin i c = 1/1.33 ≅ 0.75 , where r is the radius (in m)
+of the largest circle from which light comes out and ic is the critical
+angle for water-air interface, Area = 2.6 m2
+n ≅ 1.53 and Dm for prism in water ≅ 10°
+R = 22 cm
+Here the object is virtual and the image is real. u = +12 cm (object on
+right; virtual)
+(a) f = +20 cm. Image is real and at 7.5 cm from the lens on its right
+side.
+(b) f = –16 cm. Image is real and at 48 cm from the lens on its right
+side.
+v = 8.4 cm, image is erect and virtual. It is diminished to a size
+1.8 cm. As u → ∞, v → f (but never beyond f while m → 0).
+Note that when the object is placed at the focus of the concave lens
+(21 cm), the image is located at 10.5 cm (not at infinity as one might
+wrongly think).
+A diverging lens of focal length 60 cm
+(a) ve = –25 cm and fe = 6.25 cm give ue = –5 cm; vO = (15 – 5) cm =
+10 cm,
+fO = u O = – 2.5 cm; Magnifying power = 20
+(b) u O = – 2.59 cm.
+Magnifying power = 13.5.
+Angular magnification of the eye-piece for image at 25 cm
+
+9.6
+9.7
+9.8
+
+9.9
+
+9.10
+9.11
+
+9.12
+
+502
+
+25
+
+25
+cm = 2.27cm ; vO = 7.2 cm
+11
+2.5
+Separation = 9.47 cm; Magnifying power = 88
+=
+
++ 1 = 11; | u e |=
+
+2022-23
+
+Answers
+9.13
+9.14
+9.15
+
+9.16
+
+9.17
+
+24; 150 cm
+(a) Angular magnification = 1500
+(b) Diameter of the image = 13.7 cm.
+Apply mirror equation and the condition:
+(a) f < 0 (concave mirror); u < 0 (object on left)
+(b) f > 0; u < 0
+(c) f > 0 (convex mirror) and u < 0
+(d) f < 0 (concave mirror); f < u < 0
+to deduce the desired result.
+The pin appears raised by 5.0 cm. It can be seen with an explicit ray
+diagram that the answer is independent of the location of the slab
+(for small angles of incidence).
+(a) sin ic′ = 1.44/1.68 which gives ic′ = 59°. Total internal reflection
+takes place when i > 59° or when r < r max = 31°. Now,
+(sin i
+
+9.18
+
+9.19
+
+9.20
+
+max
+
+/sin r
+
+max
+
+) = 1.68 , which gives i
+max
+
+~
+
+60°. Thus, all
+
+incident rays of angles in the range 0 < i < 60° will suffer total
+internal reflections in the pipe. (If the length of the pipe is
+finite, which it is in practice, there will be a lower limit on i
+determined by the ratio of the diameter to the length of the
+pipe.)
+(b) If there is no outer coating, ic′ = sin –1(1/1.68) = 36.5°. Now,
+i = 90° will have r = 36.5° and i ′ = 53.5° which is greater than
+ic′. Thus, all incident rays (in the range 53.5° < i < 90°) will
+suffer total internal reflections.
+(a) Rays converging to a point ‘behind’ a plane or convex mirror are
+reflected to a point in front of the mirror on a screen. In other
+words, a plane or convex mirror can produce a real image if the
+object is virtual. Convince yourself by drawing an appropriate
+ray diagram.
+(b) When the reflected or refracted rays are divergent, the image is
+virtual. The divergent rays can be converged on to a screen by
+means of an appropriate converging lens. The convex lens of the
+eye does just that. The virtual image here serves as an object for
+the lens to produce a real image. Note, the screen here is not
+located at the position of the virtual image. There is no contradiction.
+(c) Taller
+(d) The apparent depth for oblique viewing decreases from its value
+for near-normal viewing. Convince yourself of this fact by drawing ray diagrams for different positions of the observer.
+(e) Refractive index of a diamond is about 2.42, much larger than
+that of ordinary glass (about 1.5). The critical angle of diamond
+is about 24°, much less than that of glass. A skilled diamondcutter exploits the larger range of angles of incidence (in the
+diamond), 24° to 90°, to ensure that light entering the diamond
+is totally reflected from many faces before getting out–thus
+producing a sparkling effect.
+For fixed distance s between object and screen, the lens equation
+does not give a real solution for u or v if f is greater than s/4.
+Therefore, fmax = 0.75 m.
+21.4 cm
+2022-23
+
+503
+
+Physics
+9.21
+
+(a) (i) Let a parallel beam be the incident from the left on the convex
+lens first.
+f1 = 30 cm and u1 = – ∞ , give v1 = + 30 cm. This image becomes
+a virtual object for the second lens.
+f 2 = –20 cm, u 2 = + (30 – 8) cm = + 22 cm which gives,
+v2 = – 220 cm. The parallel incident beam appears to diverge
+from a point 216 cm from the centre of the two-lens system.
+(ii) Let the parallel beam be incident from the left on the concave
+lens first: f1 = – 20 cm, u1 = – ∞, give v1 = – 20 cm. This image
+becomes a real object for the second lens: f2 = + 30 cm, u2 =
+– (20 + 8) cm = – 28 cm which gives, v2 = – 420 cm. The parallel
+incident beam appears to diverge from a point 416 cm on the
+left of the centre of the two-lens system.
+Clearly, the answer depends on which side of the lens system
+the parallel beam is incident. Further we do not have a simple lens
+equation true for all u (and v) in terms of a definite constant of the
+system (the constant being determined by f1 and f2, and the separation
+between the lenses). The notion of effective focal length, therefore,
+does not seem to be meaningful for this system.
+(b) u1 = – 40 cm, f1 = 30 cm, gives v1= 120 cm.
+Magnitude of magnification due to the first (convex) lens is 3.
+u 2 = + (120 – 8) cm = +112 cm (object virtual);
+
+f2 = – 20 cm which gives v2 = −
+
+112 × 20
+cm
+92
+
+9.22
+
+Magnitude of magnification due to the second (concave)
+lens = 20/92.
+Net magnitude of magnification = 0.652
+Size of the image = 0.98 cm
+If the refracted ray in the prism is incident on the second face at the
+critical angle ic, the angle of refraction r at the first face is (60°–ic).
+Now, ic = sin–1 (1/1.524) ~ 41°
+Therefore, r = 19°
+sin i = 0.4962; i ~ 30°
+
+9.23
+
+(a)
+
+1 1
+1
++ =
+v 9 10
+
+i.e.,
+v = – 90 cm,
+Magnitude of magnification = 90/9 = 10.
+Each square in the virtual image has an area 10 × 10 × 1 mm2
+= 100 mm2 = 1 cm2
+(b) Magnifying power = 25/9 = 2.8
+(c) No, magnification of an image by a lens and angular magnification
+(or magnifying power) of an optical instrument are two separate
+things. The latter is the ratio of the angular size of the object
+(which is equal to the angular size of the image even if the image
+is magnified) to the angular size of the object if placed at the near
+point (25 cm). Thus, magnification magnitude is |(v/u )| and
+magnifying power is (25/ |u|). Only when the image is located at
+the near point |v| = 25 cm, are the two quantities equal.
+
+504
+2022-23
+
+Answers
+9.24
+
+(a) Maximum magnifying power is obtained when the image is at
+the near point (25 cm)
+u = – 7.14 cm.
+(b) Magnitude of magnification = (25/ |u|) = 3.5.
+(c) Magnifying power = 3.5
+Yes, the magnifying power (when the image is produced at 25 cm)
+is equal to the magnitude of magnification.
+
+9.25
+
+Magnification =
+
+(6.25 / 1) = 2.5
+
+v = +2.5u
+
++
+
+9.26
+
+1
+2.5u
+
+−
+
+1
+
+=
+
+u
+
+1
+10
+
+i.e.,u = – 6 cm
+|v| = 15 cm
+The virtual image is closer than the normal near point (25 cm) and
+cannot be seen by the eye distinctly.
+(a) Even though the absolute image size is bigger than the object
+size, the angular size of the image is equal to the angular size of
+the object. The magnifier helps in the following way: without it
+object would be placed no closer than 25 cm; with it the object
+can be placed much closer. The closer object has larger angular
+size than the same object at 25 cm. It is in this sense that angular
+magnification is achieved.
+(b) Yes, it decreases a little because the angle subtended at the eye
+is then slightly less than the angle subtended at the lens. The
+effect is negligible if the image is at a very large distance away.
+[Note: When the eye is separated from the lens, the angles
+subtended at the eye by the first object and its image are not
+equal.]
+(c) First, grinding lens of very small focal length is not easy. More
+important, if you decrease focal length, aberrations ( both spherical
+and chromatic ) become more pronounced. So, in practice, you
+cannot get a magnifying power of more than 3 or so with a simple
+convex lens. However, using an aberration corrected lens system,
+one can increase this limit by a factor of 10 or so.
+(d) Angular magnification of eye-piece is [( 25/fe ) + 1] ( fe in cm) which
+increases if fe is smaller. Further, magnification of the objective
+is given by
+
+vO
+|u O |
+
+=
+
+1
+(|u O |/ f O ) − 1
+
+|u O | is slightly greater than fO. The microscope is used for viewing very close object. So |u O | is small, and
+
+which is large when
+
+(e)
+
+so is fO.
+The image of the objective in the eye-piece is known as ‘eye-ring’.
+All the rays from the object refracted by objective go through the
+eye-ring. Therefore, it is an ideal position for our eyes for viewing.
+If we place our eyes too close to the eye-piece, we shall not collect
+much of the light and also reduce our field of view. If we position
+
+505
+2022-23
+
+Physics
+
+9.27
+
+our eyes on the eye-ring and the area of the pupil of our eye is
+greater or equal to the area of the eye-ring, our eyes will collect
+all the light refracted by the objective. The precise location of
+the eye-ring naturally depends on the separation between the
+objective and the eye-piece. When you view through a microscope
+by placing your eyes on one end,the ideal distance between the
+eyes and eye-piece is usually built-in the design of the
+instrument.
+Assume microscope in normal use i.e., image at 25 cm. Angular
+magnification of the eye-piece
+=
+
+25
+
++1 = 6
+5
+Magnification of the objective
+=
+
+30
+6
+
+=5
+
+1
+1
+1
+−
+=
+5u O u O 1.25
+
+which gives uO= –1.5 cm; v0= 7.5 cm. |u e|= (25/6) cm = 4.17 cm. The
+separation between the objective and the eye-piece should be (7.5 +
+4.17) cm = 11.67 cm. Further the object should be placed 1.5 cm from
+the objective to obtain the desired magnification.
+9.28
+
+(a) m = ( fO/fe ) = 28
+
+9.29
+
+fO 
+
+1 + 25  = 33.6
+(a) fO + fe = 145 cm
+
+(b) m =
+
+fO
+fe
+
+(b) Angle subtended by the tower = (100/3000) = (1/30) rad.
+Angle subtended by the image produced by the objective
+=
+
+h
+h
+=
+f O 140
+
+Equating the two, h = 4.7 cm.
+(c)
+
+Magnification (magnitude) of the eye-piece = 6. Height of the
+final image (magnitude) = 28 cm.
+
+9.30
+
+The image formed by the larger (concave) mirror acts as virtual object
+for the smaller (convex) mirror. Parallel rays coming from the object
+at infinity will focus at a distance of 110 mm from the larger mirror.
+The distance of virtual object for the smaller mirror = (110 – 20) =
+90 mm. The focal length of smaller mirror is 70 mm. Using the mirror
+formula, image is formed at 315 mm from the smaller mirror.
+
+9.31
+
+The reflected rays get deflected by twice the angle of rotation of the
+mirror. Therefore, d/1.5 = tan 7°. Hence d = 18.4 cm.
+
+9.32
+
+n = 1.33
+
+506
+2022-23
+
+Answers
+CHAPTER 10
+10.1
+
+(a) Reflected light: (wavelength, frequency, speed same as incident
+light)
+
+λ = 589 nm, ν = 5.09 × 1014 Hz, c = 3.00 × 108 m s–1
+(b) Refracted light: (frequency same as the incident frequency)
+ν = 5.09 × 1014Hz
+v = (c/n) = 2.26 × 108 m s–1, λ = (v/ν ) = 444 nm
+10.2
+
+(a) Spherical
+(b) Plane
+(c) Plane (a small area on the surface of a large sphere is nearly
+planar).
+
+10.3
+
+(a) 2.0 × 108 m s–1
+(b) No. The refractive index, and hence the speed of light in a
+medium, depends on wavelength. [When no particular
+wavelength or colour of light is specified, we may take the given
+refractive index to refer to yellow colour.] Now we know violet
+colour deviates more than red in a glass prism, i.e. n v > nr.
+Therefore, the violet component of white light travels slower than
+the red component.
+
+10.4
+
+λ=
+
+10.5
+
+K/4
+
+10.6
+
+(a) 1.17 mm
+
+10.7
+
+0.15°
+
+10.8
+
+tan–1(1.5) ~ 56.3o
+
+10.9
+
+5000 Å, 6 × 1014 Hz; 45°
+
+–2
+
+1.2 ×10 × 0.28 ×10
+
+–3
+
+4 ×1.4
+
+m = 600 nm
+
+(b) 1.56 mm
+
+10.10 40 m
+10.11 Use the formula λ′ – λ =
+i.e., v =
+
+c
+
+λ
+
+( λ' − λ) =
+
+v
+
+λ
+
+c
+
+3 × 108 × 15
+= 6.86 × 105 m s–1
+6563
+
+10.12 In corpuscular (particle) picture of refraction, particles of light
+incident from a rarer to a denser medium experience a force of
+attraction normal to the surface. This results in an increase in the
+normal component of the velocity but the component along the surface
+is unchanged. This means
+c sin i = v sin r
+
+or
+
+v
+
+sin i
+
+= n . Since n > 1, v > c.
+c sin r
+The prediction is opposite to the experimental results (v < c ). The
+wave picture of light is consistent with the experiment.
+=
+
+507
+2022-23
+
+Physics
+10.13 With the point object at the centre, draw a circle touching the mirror.
+This is a plane section of the spherical wavefront from the object
+that has just reached the mirror. Next draw the locations of this
+same wavefront after a time t in the presence of the mirror, and in
+the absence of the mirror. You will get two arcs symmetrically located
+on either side of the mirror. Using simple geometry, the centre of the
+reflected wavefront (the image of the object) is seen to be at the same
+distance from the mirror as the object.
+
+508
+
+10.14 (a) The speed of light in vacuum is a universal constant independent
+of all the factors listed and anything else. In particular, note the
+surprising fact that it is independent of the relative motion
+between the source and the observer. This fact is a basic axiom
+of Einstein’s special theory of relativity.
+(b) Dependence of the speed of light in a medium:
+(i) does not depend on the nature of the source (wave speed is
+determined by the properties of the medium of propagation.
+This is also true for other waves, e.g., sound waves, water
+waves, etc.).
+(ii) independent of the direction of propagation for isotropic
+media.
+(iii) independent of the motion of the source relative to the
+medium but depends on the motion of the observer relative
+to the medium.
+(iv) depends on wavelength.
+(v) independent of intensity. [For high intensity beams,
+however, the situation is more complicated and need not
+concern us here.]
+10.15 Sound waves require a medium for propagation. Thus even though
+the situations (i) and (ii) may correspond to the same relative motion
+(between the source and the observer), they are not identical
+physically since the motion of the observer relative to the medium
+is different in the two situations. Therefore, we cannot expect
+Doppler formulas for sound to be identical for (i) and (ii). For light
+waves in vacuum, there is clearly nothing to distinguish between
+(i) and (ii). Here only the relative motion between the source and the
+observer counts and the relativistic Doppler formula is the same for
+(i) and (ii). For light propagation in a medium, once again like for
+sound waves, the two situations are not identical and we should
+expect the Doppler formulas for this case to be different for the two
+situations (i) and (ii).
+10.16 3.4 × 10 – 4 m.
+10.17 (a) The size reduces by half according to the relation: size ~ λ/d.
+Intensity increases four fold.
+(b) The intensity of interference fringes in a double-slit arrangement
+is modulated by the diffraction pattern of each slit.
+(c) Waves diffracted from the edge of the circular obstacle interfere
+constructively at the centre of the shadow producing a bright
+spot.
+(d) For diffraction or bending of waves by obstacles/apertures by a
+large angle, the size of the latter should be comparable to
+wavelength. If the size of the obstacle/aperture is much too large
+compared to wavelength, diffraction is by a small angle. Here
+the size is of the order of a few metres. The wavelength of light is
+about 5 × 10–7 m, while sound waves of, say, 1 kHz frequency
+2022-23
+
+Answers
+(e)
+
+have wavelength of about 0.3 m. Thus, sound waves can bend
+around the partition while light waves cannot.
+Justification based on what is explained in (d). Typical sizes of
+apertures involved in ordinary optical instruments are much
+larger than the wavelength of light.
+
+10.18 12.5 cm.
+10.19 0.2 nm.
+10.20 (a) Interference of the direct signal received by the antenna with
+the (weak) signal reflected by the passing aircraft.
+(b) Superposition principle follows from the linear character of the
+(differential) equation governing wave motion. If y 1 and y2 are
+solutions of the wave equation, so is any linear combination of
+y1 and y2. When the amplitudes are large (e.g., high intensity laser
+beams) and non-linear effects are important, the situation is far
+more complicated and need not concern us here.
+10.21 Divide the single slit into n smaller slits of width a ′ = a/n . The angle
+θ = n λ/a = λ/a ′. Each of the smaller slits sends zero intensity in the
+direction θ. The combination gives zero intensity as well.
+
+CHAPTER 11
+(a) 7.24 × 1018 Hz
+(b) 0.041 nm
+(a) 0.34 eV = 0.54 × 10–19J
+(b) 0.34 V
+(c) 344 km/s
+1.5 eV = 2.4 × 10–19 J
+(a) 3.14 × 10–19J, 1.05 × 10–27 kg m/s
+(b) 3 × 1016 photons/s
+(c) 0.63 m/s
+11.5 4 × 1021 photons/m2 s
+11.6 6.59 × 10–34 J s
+11.7 (a) 3.38 × 10–19 J = 2.11 eV
+(b) 3.0 × 1020 photons/s
+11.8 2.0 V
+11.9 No, because ν < νo
+11.10 4.73 × 1014 Hz
+11.11 2.16 eV = 3.46 × 10–19J
+
+11.1
+11.2
+11.3
+11.4
+
+11.12 (a) 4.04 × 10–24 kg m s–1
+–24
+
+kg m s
+
+–25
+
+J = 4.34 µeV
+
+11.13 (a) 5.92 × 10
+
+11.14 (a) 6.95 × 10
+
+–1
+
+11.15 (a) 1.7 × 10–35 m
+
+(b) 0.164 nm
+(b) 6.50 × 106 m s–1
+
+(b) 1.1 × 10–32 m
+
+11.16 (a) 6.63 × 10–25 kg m/s (for both)
+11.17
+11.18
+11.19
+11.20
+
+(c) 0.112 nm
+
+(b) 3.78 × 10–28 J = 0.236 neV
+(c) 3.0 × 10–23 m
+(b) 1.24 keV
+
+(c) 1.51 eV
+
+(a) 6.686 × 10–21 J = 4.174 × 10–2 eV
+(b) 0.145 nm
+λ = h/p = h/(hν/c) = c/ν
+0.028 nm
+(a) Use eV = (m v 2/2) i.e., v = [(2eV/m)]1/2 ; v = 1.33 × 107 m s–1.
+(b) If we use the same formula with V = 107 V, we get v = 1.88 ×
+109 m s–1. This is clearly wrong, since nothing can move with a
+speed greater than the speed of light (c = 3 × 108 m s–1). Actually,
+the above formula for kinetic energy (m v 2/2) is valid only when
+(v/c) << 1. At very high speeds when (v/c ) is comparable to
+(though always less than) 1, we come to the relativistic domain
+2022-23
+
+509
+
+Physics
+where the following formulae are valid:
+Relativistic momentum p = m v
+Total energy E = m c 2
+Kinetic energy K = m c 2 – m 0 c 2,
+ v2 
+where the relativistic mass m is given by m = m 0 1 − 2 
+ c 
+
+−1 / 2
+
+m0 is called the rest mass of the particle. These relations also
+imply:
+E = (p 2c 2 + m 02 c4)1/2
+Note that in the relativisitc domain when v/c is comparable to 1, K
+or energy ≥ m 0c 2 (rest mass energy). The rest mass energy of electron
+is about 0.51 MeV. Thus a kinetic energy of 10 MeV, being much
+greater than electron’s rest mass energy, implies relativistic domain.
+Using relativistic formulas, v (for 10 MeV kinetic energy) = 0.999 c.
+11.21 (a) 22.7 cm
+(b) No. As explained above, a 20 MeV electron moves at relativistic
+speed. Consequently, the non-relativistic formula R = (m 0v/e B )
+is not valid. The relativistic formula is
+R = p / eB = mv / eB
+
+or
+
+(
+
+R = m 0v / eB 1 – v 2 / c 2
+
+)
+
+11.22 We have e V = (m v 2/2) and R = (m v/e B) which gives (e/m) =
+(2V/R 2 B 2 ); using the given data (e/m) = 1.73 × 1011 C kg –1.
+11.23 (a) 27.6 keV
+(b) of the order of 30 kV
+11.24 Use λ = (hc/E) with E = 5.1 × 1.602 × 10–10J to get λ = 2.43 × 10–16 m.
+11.25 (a) For λ = 500 m, E = (h c/ λ) = 3.98 × 10–28J. Number of photons
+emitted per second
+= 104J s–1/3.98 × 10–28J ∼ 3 × 1031 s–1
+We see that the energy of a radiophoton is exceedingly small,
+and the number of photons emitted per second in a radio beam
+is enormously large. There is, therefore, negligible error involved
+in ignoring the existence of a minimum quantum of energy
+(photon) and treating the total energy of a radio wave as
+continuous.
+(b) For ν = 6 × 1014 Hz, E ∼ 4 × 10–19J. Photon flux corresponding to
+minimum intensity
+= 10–10 W m–2/4×10–19J = 2.5 × 108 m–2 s–1
+Number of photons entering the pupil per second = 2.5 × 108 ×
+0.4 × 10–4 s–1 = 104 s–1. Though this number is not as large as in
+(a) above, it is large enough for us never to ‘sense’ or ‘count’
+individual photons by our eye.
+
+φ0
+= 1.0 × 1015 Hz; λ = 6328Å
+h
+corresponds to ν = 4.7 × 1014 Hz < ν0. The photo-cell will not respond
+howsoever high be the intensity of laser light.
+11.27 Use e V0 = h ν – φ0 for both sources. From the data on the first source,
+φ0 = 1.40 eV. Use this value to obtain for the second source V0 = 1.50 V.
+11.26 φ0 = h ν – e V0 = 6.7 × 10–19 J = 4.2 eV; ν0 =
+
+510
+2022-23
+
+Answers
+11.28 Obtain V0 versus ν plot. The slope of the plot is (h/e) and its intercept
+on the ν-axis is ν0. The first four points lie nearly on a straight line
+which intercepts the ν-axis at ν0 = 5.0 × 1014 Hz (threshold frequency).
+The fifth point corresponds to ν < ν 0; there is no photoelectric
+emission and therefore no stopping voltage is required to stop the
+current. Slope of the plot is found to be 4.15 × 10–15 V s. Using e = 1.6 ×
+10–19 C, h = 6.64 × 10–34 J s (standard value h = 6.626 × 10–34 J s), φ0 =
+h ν0 = 2.11 V.
+11.29 It is found that the given incident frequency ν is greater than ν0
+(Na), and ν0 (K); but less than ν0 (Mo), and ν0 (Ni). Therefore, Mo and
+Ni will not give photoelectric emission. If the laser is brought closer,
+intensity of radiation increases, but this does not affect the result
+regarding Mo and Ni. However, photoelectric current from Na and K
+will increase in proportion to intensity.
+11.30 Assume one conduction electron per atom. Effective atomic area
+~10–20 m2
+Number of electrons in 5 layers
+=
+
+5 × 2 ×10−4 m2
+= 1017
+10−20 m2
+
+Incident power
+= 10–5 W m–2 × 2 × 10–4 m2 = 2 × 10–9 W
+In the wave picture, incident power is uniformly absorbed by all the
+electrons continuously. Consequently, energy absorbed per second
+per electron
+= 2 × 10–9/1017 = 2 × 10–26 W
+Time required for photoelectric emission
+= 2 × 1.6 × 10–19J/2 × 10–26 W = 1.6 × 107 s
+which is about 0.5 year.
+Implication: Experimentally, photoelectric emission is observed nearly
+instantaneously (∼10 –9 s): Thus, the wave picture is in gross
+disagreement with experiment. In the photon-picture, energy of the
+radiation is not continuously shared by all the electrons in the top
+layers. Rather, energy comes in discontinuous ‘quanta’. and
+absorption of energy does not take place gradually. A photon is either
+not absorbed, or absorbed by an electron nearly instantly.
+11.31 For λ = 1 Å, electron’s energy = 150 eV; photon’s energy = 12.4 keV.
+Thus, for the same wavelength, a photon has much greater energy
+than an electron.
+11.32 (a)
+
+h
+h
+=
+Thus, for same K, λ decreases with m as
+p
+2 mK
+(1/ m ). Now (mn/me) = 1838.6; therefore for the same energy,
+
+λ=
+
+(
+
+(150 eV) as in Ex. 11.31, wavelength of neutron = 1/ 1838.6
+
+)×
+
+10 m = 2.33×10 m. The interatomic spacing is about a
+hundred times greater. A neutron beam of 150 eV energy is
+therefore not suitable for diffraction experiments.
+–10
+
+–12
+
+511
+2022-23
+
+Physics
+(b) λ = 1.45 × 10–10 m [Use λ = (h / 3 m k T ) ] which is comparable
+to interatomic spacing in a crystal.
+Clearly, from (a) and (b) above, thermal neutrons are a suitable
+probe for diffraction experiments; so a high energy neutron beam
+should be first thermalised before using it for diffraction.
+11.33 λ = 5.5 × 10–12 m
+λ ( yellow light) = 5.9 × 10–7m
+Resolving Power (RP) is inversely proportional to wavelength. Thus,
+RP of an electron microscope is about 105 times that of an optical
+microscope. In practice, differences in other (geometrical) factors
+can change this comparison somewhat.
+6.63 × 10 –34 Js
+= 6.63 × 10–19 kg m s–1
+λ
+10 –15 m
+Use the relativistic formula for energy:
+E 2 = c 2p 2 + m 02 c 4 = 9 × (6.63)2 × 10–22 + (0.511 × 1.6)2 × 10–26
+∼ 9 × (6.63)2 × 10–22,
+the second term (rest mass energy) being negligible.
+Therefore, E = 1.989 × 10–10 J = 1.24 BeV. Thus, electron energies
+from the accelerator must have been of the order of a few BeV.
+
+11.34 p =
+
+h
+
+=
+
+4 ×10 3
+kg
+6 ×1023
+This gives λ = 0.73 × 10–10 m. Mean separation
+r = (V/N)1/3 = (kT/p)1/3
+For T = 300 K, p = 1.01 × 105 Pa, r = 3.4 × 10–9 m. We find r >> λ.
+11.36 Using the same formula as in Exercise 11.35, λ = 6.2 × 10–9 m which
+is much greater than the given inter-electron separation.
+11.37 (a) Quarks are thought to be confined within a proton or neutron
+by forces which grow stronger if one tries to pull them apart. It,
+therefore, seems that though fractional charges may exist in
+nature, observable charges are still integral multiples of e.
+(b) Both the basic relations e V = (1/2 ) m v 2 or e E = m a and
+e B v =m v 2/r, for electric and magnetic fields, respectively, show
+that the dynamics of electrons is determined not by e, and m
+separately but by the combination e/m.
+(c) At low pressures, ions have a chance to reach their respective
+electrodes and constitute a current. At ordinary pressures, ions
+have no chance to do so because of collisions with gas molecules
+and recombination.
+(d) Work function merely indicates the minimum energy required
+for the electron in the highest level of the conduction band to
+get out of the metal. Not all electrons in the metal belong to this
+level. They occupy a continuous band of levels. Consequently,
+for the same incident radiation, electrons knocked off from
+different levels come out with different energies.
+(e) The absolute value of energy E (but not momentum p) of any
+particle is arbitrary to within an additive constant. Hence, while
+λ is physically significant, absolute value of ν of a matter wave of
+an electron has no direct physical meaning. The phase speed νλ
+
+11.35 Use λ =
+
+h
+3m k T
+
+512
+2022-23
+
+; m =
+He
+
+Answers
+is likewise not physically significant. The group speed given by
+
+dν
+dE
+d  p2  p
+=
+=
+
+=
+d (1/ λ ) dp
+dp  2m  m
+is physically meaningful.
+
+CHAPTER 12
+(a) No different from
+(b) Thomson’s model; Rutherford’s model
+(c) Rutherford’s model
+(d) Thomson’s model; Rutherford’s model
+(e) Both the models
+12.2 The nucleus of a hydrogen atom is a proton. The mass of it is
+1.67 × 10–27 kg, whereas the mass of an incident α-particle is
+6.64 × 10–27 kg. Because the scattering particle is more massive than
+the target nuclei (proton), the α-particle won’t bounce back in even
+in a head-on collision. It is similar to a football colliding with a tenis
+ball at rest. Thus, there would be no large-angle scattering.
+12.3 820 nm.
+12.4 5.6 × 1014 Hz
+12.5 13.6 eV; –27.2 eV
+12.6 9.7 × 10 – 8 m; 3.1 × 1015 Hz.
+12.7 (a) 2.18 × 106 m/s; 1.09 × 106 m/s; 7.27 × 105 m/s
+(b) 1.52 × 10–16 s; 1.22 × 10–15 s; 4.11 × 10–15 s.
+12.8 2.12×10–10 m; 4.77 × 10–10 m
+12.9 Lyman series: 103 nm and 122 nm; Balmer series: 656 nm.
+12.10 2.6 × 1074
+12.11 (a) About the same.
+(b) Much less.
+(c) It suggests that the scattering is predominantly due to a single
+collision, because the chance of a single collision increases
+linearly with the number of target atoms, and hence linearly
+with thickness.
+(d) In Thomson’s model, a single collision causes very little
+deflection. The observed average scattering angle can be
+explained only by considering multiple scattering. So it is wrong
+to ignore multiple scattering in Thomson’s model. In
+Rutherford’s model, most of the scattering comes through a
+single collision and multiple scattering effects can be ignored
+as a first approximation.
+12.12 The first orbit Bohr’s model has a radius a 0 given by
+12.1
+
+4 π ε 0 (h / 2π)2
+. If we consider the atom bound by the gravitational
+me e 2
+2
+force (Gmpme/r ), we should replace (e2/4 π ε0) by Gm pm e. That is, the
+(h / 2π)2
+radius of the first Bohr orbit is given by a G0 =
+≅ 1.2 × 1029 m.
+Gm pm e2
+
+a0 =
+
+513
+2022-23
+
+Physics
+This is much greater than the estimated size of the whole universe!
+12.13
+
+ν=
+
+me 4
+1
+me 4 (2n − 1)
+ 1
+− 2 =
+3 2
+2
+3 
+2
+(4 π) ε 0 (h / 2π)  (n − 1) n  (4π) ε 0 (h / 2π)3n 2 (n − 1)2
+3
+
+For large n, ν ≅
+
+me 4
+32 π ε (h / 2π)3 n 3
+3
+
+2
+0
+
+Orbital frequency νc = (v/2 π r ). In Bohr model v =
+
+r =
+
+n (h / 2π)
+, and
+mr
+
+me 4
+n (h / 2π) =
+4 π ε 0 (h / 2π)2 2
+.
+This
+gives
+ν
+=
+n
+c
+32 π3 ε 02 (h / 2π)3 n 3
+2 π mr 2
+me 2
+
+which is same as ν for large n.
+
+
+e2
+
+12.14 (a) The quantity
+2  has the dimensions of length. Its value
+ 4 π ε 0mc 
+–15
+is 2.82 ×10 m – much smaller than the typical atomic size.
+
+4 πε 0 (h / 2π)2
+has the dimensions of length. Its
+me 2
+value is 0.53 × 10–10 m – of the order of atomic sizes. (Note that
+the dimensional arguments cannot, of course, tell us that we
+should use 4π and h/2π in place of h to arrive at the right size.)
+
+(b) The quantity
+
+12.15 In Bohr’s model, mvr =
+
+nh
+2π
+
+and
+
+mv 2
+Ze 2
+=
+r
+4 π ε 0r 2
+
+which give
+
+1
+Ze 2
+;r =
+mv 2 =
+2
+8 π ε 0r
+These relations have nothing to do with the choice of the zero of
+potential energy. Now, choosing the zero of potential energy at infinity
+we have V = – (Z e2/4 π ε 0 r) which gives V = –2T and E = T + V = – T
+(a) The quoted value of E = – 3.4 eV is based on the customary
+choice of zero of potential energy at infinity. Using E = – T, the
+kinetic energy of the electron in this state is + 3.4 eV.
+(b) Using V = – 2T, potential energy of the electron is = – 6.8 eV
+(c) If the zero of potential energy is chosen differently, kinetic energy
+does not change. Its value is + 3.4 eV independent of the choice
+of the zero of potential energy. The potential energy, and the
+total energy of the state, however, would alter if a different zero
+of the potential energy is chosen.
+12.16 Angular momenta associated with planetary motion are
+incomparably large relative to h . For example, angular momentum
+of the earth in its orbital motion is of the order of 1070h . In terms of
+the Bohr’s quantisation postulate, this corresponds to a very large
+value of n (of the order of 10 70). For such large values of n, the
+differences in the successive energies and angular momenta of the
+quantised levels of the Bohr model are so small compared to the
+energies and angular momenta respectively for the levels that one
+can, for all practical purposes, consider the levels continuous.
+T=
+
+514
+
+2022-23
+
+Answers
+12.17 All that is needed is to replace m e by m µ in the formulas of the Bohr
+model. We note that keeping other factors fixed, r ∝ (1/m) and E ∝ m.
+Therefore,
+rµ =
+
+Eµ=
+
+re m e 0.53 ×10
+=
+mµ
+207
+
+Ee m µ
+me
+
+13
+
+= 2.56 × 10–13 m
+
+= – (13.6 × 207) eV ≅ – 2.8 keV
+
+CHAPTER 13
+13.1
+13.2
+13.3
+13.4
+13.5
+
+(a) 6.941 u
+(b) 19.9%, 80.1%
+20.18 u
+104.7 MeV
+8.79 MeV, 7.84 MeV
+1.584 × 1025 MeV or 2.535×1012J
+
+13.6
+
+i)
+
+226
+88
+
+32
+15
+
+iii)
+v)
+
+Ra →
+
+11
+6
+
+vii)
+
+222
+86
+
+Rn + 42 He
+
+32
+P → 16
+S +e – + ν
+
+C → 115B +e+ +ν
+
+120
+54
+
+ii)
+
+242
+94
+
+4
+Pu → 238
+92 U + 2 He
+
+iv)
+
+210
+83
+
+vi)
+
+97
+43
+
+–
+B → 210
+84 Po + e +ν
+
++
+Tc → 97
+42 Mo + e +ν
+
+Xe + e – → 120
+53 I + ν
+
+13.7
+13.8
+13.9
+13.10
+13.11
+13.12
+
+(a) 5 T years
+(b) 6.65 T years
+4224 years
+7.126 ×10–6 g
+7.877 ×1010 Bq or 2.13 Ci
+1.23
+(a) Q = 4.93 MeV, Eα = 4.85 MeV
+(b) Q = 6.41 MeV, Eα = 6.29 MeV
+
+13.13
+
+11
+6
+
++
+C → 11
+5 B + e +ν + Q
+
+,
+where the masses used are those of nuclei and not of atoms. If we
+use atomic masses, we have to add 6m e in case of 116C and 5m e in
+case of 115B. Hence
+(Note m e has been doubled)
+Using given masses, Q = 0.961 MeV.
+Q = E d+ Ee+ Eν
+The daughter nucleus is too heavy compared to e+ and ν, so it carries
+negligible energy (E d ≈0). If the kinetic energy (E ν) carried by the
+neutrino is minimum (i.e., zero), the positron carries maximum
+energy, and this is practically all energy Q; hence maximum E e ≈ Q).
+13.14
+
+(
+
+)
+
+(
+
+)
+
+23
+23
+2
+23
+Ne → 11
+Na + e– +ν + Q ; Q = m N 10 Ne – m N 11 Na – m e  c , where the
+masses used are masses of nuclei and not of atoms as in Exercise
+
+23
+10
+
+13.13. Using atomic masses Q = m
+
+(
+
+23
+10
+
+)
+
+Ne – m
+
+(
+
+23
+11
+
+)
+
+Na  c 2 . Note m e has
+
+515
+2022-23
+
+Physics
+been cancelled. Using given masses, Q = 4.37 MeV. As in Exercise 13.13,
+maximum kinetic energy of the electron (max Ee ) = Q = 4.37 MeV.
+13.15 (i) Q = – 4.03 MeV; endothermic
+(ii) Q = 4.62 MeV; exothermic
+13.16 Q = m
+
+(
+
+56
+26
+
+13.17 4.536 × 10
+
+)
+
+Fe – 2m
+
+26
+
+(
+
+)
+
+28
+13
+
+Al = 26.90 MeV; not possible.
+
+MeV
+
+13.18 Energy generated per gram of
+235
+92
+
+The amount of
+=
+
+235
+92
+
+U =
+
+6 × 1023 × 200 × 1.6 × 10 −13
+J g −1
+235
+
+U consumed in 5y with 80% on-time
+
+5 × 0.8 × 3.154 × 1016 × 235
+g
+1.2 × 1.6 × 1013
+
+The initial amount of
+
+235
+92
+
+= 1544 kg
+
+U = 3088 kg.
+
+4
+
+13.19 About 4.9 × 10 y
+13.20 360 KeV
+13.22 Consider the competing processes:
+A
+Z
+
+X → ZA –1 Y + e+ + νe + Q1 (positron emission)
+
+e– +
+
+A
+Z
+
+X → ZA –1 Y + νe + Q2 (electron capture)
+
+Q 1 = m N
+
+= m
+
+( X) – m (
+A
+Z
+
+( X) – m (
+A
+Z
+
+)
+
+Y – m e  c 2
+
+N
+
+A
+Z –1
+
+A
+Z –1
+
+Y – 2m e  c 2
+
+( )
+
+)
+
+(
+
+)
+
+( )
+
+(
+
+)
+
+A
+A
+2
+A
+A
+2
+Q 2 = m N Z X + m e – m N Z –1 Y  c = m Z X – m Z –1 Y  c
+This means Q 1 > 0 implies Q2 > 0 but Q 2 > 0 does not necessarily
+mean Q 1 > 0. Hence the result.
+
+13.23
+
+25
+12
+
+Mg : 9.3%,
+
+26
+12
+
+Mg :11.7%
+
+13.24 Neutron separation energy Sn of a nucleus
+
+A
+Z
+
+X is
+
+Sn = m N ( A −Z1 X) + m n − m N ( AZ X) c 2
+41
+From given data , Sn ( 20
+Ca) = 8.36MeV, Sn ( 27
+13 Al) = 13.06MeV
+
+13.25 209 d
+13.26 For
+
+14
+6
+
+C emission
+
+209
+14
+2
+Q = [m N ( 223
+88 Ra) − m N ( 82 Pb) − m N ( 6 C)]c
+209
+14
+2
+= 31.85 MeV
+= [m ( 223
+88 Ra) − m ( 82 Pb) − m ( 6 C)]c
+
+For
+
+4
+2
+
+219
+4
+2
+= 5.98MeV
+He emission, Q = [m ( 223
+88 Ra) − m ( 86 Rn) − m ( 2 He)]c
+
+140
+99
+2
+13.27 Q = [m ( 238
+= 231.1 MeV
+92 U) + m n − m ( 58 Ce) − m ( 44 Ru)]c
+
+516
+2022-23
+
+Answers
+13.28 (a)
+
+Q = [m ( 21 H) + m ( 31 H) − m ( 42 He) − m n ]c 2 = 17.59 MeV
+
+(b) K.E. required to overcome Coulomb repulsion = 480.0 keV
+480.0 KeV = 7.68×10–14 J = 3kT
+
+∴T =
+
+7.68 × 10 –14
+3 × 1.381 × 10 –23
+
+(as k = 1.381 × 10 –23 J K –1 )
+
+= 1.85 ×109 K (required temperature)
+
+( )
+
+( )
+
+13.29 K max β1– = 0.284 MeV, K max β2– = 0.960 MeV
+
+ν (γ 1 ) = 2.627 × 1020 Hz , ν (γ 2 ) = 0.995 × 1020 Hz , ν (γ 3 ) = 1.632 × 1020 Hz
+13.30 (a) Note that in the interior of Sun, four 11 H nuclei combine to form
+one 42 He nucleus releasing about 26 MeV of energy per event.
+Energy released in fusion of 1kg of hydrogen = 39 ×1026 MeV
+(b) Energy released in fission of 1kg of
+
+235
+92
+
+U = 5.1×1026 MeV
+
+The energy released in fusion of 1 kg of hydrogen is about 8
+times that of the energy released in the fission of 1 kg of uranium.
+13.31 3.076 × 104 kg
+
+CHAPTER 14
+14.1
+14.2
+14.3
+14.4
+14.5
+14.6
+14.7
+14.8
+
+(c)
+(d)
+(c)
+(c)
+(c)
+50 Hz for half-wave, 100 Hz for full-wave
+No (h ν has to be greater than E g ).
+n e ≈ 4.95 × 1022; n h = 4.75 × 109 ; n-type since n e >> n h
+For charge neutrality ND – NA = n e – nh ; ne.nh = ni2
+Solving these equations, n e =
+
+1
+2
+2
+(N D − N A ) + (N D − N A ) + 4n i 
+
+2 
+
+14.9 About 1 × 105
+14.10 (a) 0.0629 A,
+(b) 2.97 A,
+(c) 0.336 Ω
+(d) For both the voltages, the current I will be almost equal to I 0,
+showing almost infinite dynamic resistance in the reverse bias.
+14.12 NOT ;
+
+14.13 (a) AND
+14.14 OR gate
+14.15 (a) NOT,
+
+A
+0
+1
+
+Y
+1
+0
+(b) OR
+(b) AND
+
+517
+2022-23
+
+Physics
+
+BIBLIOGRAPHY
+
+TEXTBOOKS
+For additional reading on the topics covered in this book, you may like to consult one or more of the following
+books. Some of these books however are more advanced and contain many more topics than this book.
+1
+2
+
+Ordinary Level Physics, A.F. Abbott, Arnold-Heinemann (1984).
+Advanced Level Physics, M. Nelkon and P. Parker, 6th Edition, Arnold-Heinemann (1987).
+
+3
+
+Advanced Physics, Tom Duncan, John Murray (2000).
+
+4
+
+Fundamentals of Physics, David Halliday, Robert Resnick and Jearl Walker, 7th Edition
+John Wily (2004).
+
+5
+
+University Physics (Sears and Zemansky’s), H.D. Young and R.A. Freedman, 11th Edition,
+Addison—Wesley (2004).
+
+6
+7
+
+Problems in Elementary Physics, B. Bukhovtsa, V. Krivchenkov, G. Myakishev and
+V. Shalnov, MIR Publishers, (1971).
+Lectures on Physics (3 volumes), R.P. Feynman, Addision – Wesley (1965).
+
+8
+
+Berkeley Physics Course (5 volumes) McGraw Hill (1965).
+a.
+
+9
+
+Vol. 1 – Mechanics: (Kittel, Knight and Ruderman)
+
+b.
+
+Vol. 2 – Electricity and Magnetism (E.M. Purcell)
+
+c.
+d.
+
+Vol. 3 – Waves and Oscillations (Frank S. Crawford)
+Vol. 4 – Quantum Physics (Wichmann)
+
+e.
+
+Vol. 5 – Statistical Physics (F. Reif )
+
+Fundamental University Physics, M. Alonso and E. J. Finn, Addison – Wesley (1967).
+
+10 College Physics, R.L. Weber, K.V. Manning, M.W. White and G.A. Weygand, Tata McGraw
+Hill (1977).
+11 Physics: Foundations and Frontiers, G. Gamow and J.M. Cleveland, Tata McGraw Hill
+(1978).
+12 Physics for the Inquiring Mind, E.M. Rogers, Princeton University Press (1960).
+13 PSSC Physics Course, DC Heath and Co. (1965) Indian Edition, NCERT (1967).
+14 Physics Advanced Level, Jim Breithampt, Stanley Thornes Publishers (2000).
+15 Physics, Patrick Fullick, Heinemann (2000).
+16 Conceptual Physics, Paul G. Hewitt, Addision—Wesley (1998).
+17 College Physics, Raymond A. Serway and Jerry S. Faughn, Harcourt Brace and Co. (1999).
+18 University Physics, Harris Benson, John Wiley (1996).
+19 University Physics, William P. Crummet and Arthur B. Western, Wm.C. Brown (1994).
+20 General Physics, Morton M. Sternheim and Joseph W. Kane, John Wiley (1988).
+518
+21 Physics, Hans C. Ohanian, W.W. Norton (1989).
+2022-23
+
+Bibliography
+Answers
+Advanced Physics, Keith Gibbs, Cambridge University Press (1996).
+Understanding Basic Mechanics, F. Reif, John Wiley (1995).
+College Physics, Jerry D. Wilson and Anthony J. Buffa, Prentice Hall (1997).
+Senior Physics, Part – I, I.K. Kikoin and A.K. Kikoin, MIR Publishers (1987).
+Senior Physics, Part – II, B. Bekhovtsev, MIR Publishers (1988).
+Understanding Physics, K. Cummings, Patrick J. Cooney, Priscilla W. Laws and Edward F.
+Redish, John Wiley (2005).
+28 Essentials of Physics, John D. Cutnell and Kenneth W. Johnson, John Wiley (2005).
+
+22
+23
+24
+25
+26
+27
+
+GENERAL BOOKS
+For instructive and entertaining general reading on science, you may like to read some of the following books.
+Remember however, that many of these books are written at a level far beyond the level of the present book.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+12
+13
+14
+15
+16
+
+Mr. Tompkins in paperback, G. Gamow, Cambridge University Press (1967).
+The Universe and Dr. Einstein, C. Barnett, Time Inc. New York (1962).
+Thirty years that Shook Physics, G. Gamow, Double Day, New York (1966).
+Surely You’re Joking, Mr. Feynman, R.P. Feynman, Bantam books (1986).
+One, Two, Three… Infinity, G. Gamow, Viking Inc. (1961).
+The Meaning of Relativity, A. Einstein, (Indian Edition) Oxford and IBH Pub. Co. (1965).
+Atomic Theory and the Description of Nature, Niels Bohr, Cambridge (1934).
+The Physical Principles of Quantum Theory, W. Heisenberg, University of Chicago Press
+(1930).
+The Physics—Astronomy Frontier, F. Hoyle and J.V. Narlikar, W.H. Freeman (1980).
+The Flying Circus of Physics with Answer, J. Walker, John Wiley and Sons (1977).
+Physics for Everyone (series), L.D. Landau and A.I. Kitaigorodski, MIR Publisher (1978).
+Book 1: Physical Bodies
+Book 2: Molecules
+Book 3: Electrons
+Book 4: Photons and Nuclei.
+Physics can be Fun, Y. Perelman, MIR Publishers (1986).
+Power of Ten, Philip Morrison and Eames, W.H. Freeman (1985).
+Physics in your Kitchen Lab., I.K. Kikoin, MIR Publishers (1985).
+How Things Work: The Physics of Everyday Life, Louis A. Bloomfield, John Wiley (2005).
+Physics Matters: An Introduction to Conceptual Physics, James Trefil and Robert M.
+Hazen, John Wiley (2004).
+
+519
+2022-23
+
+Physics
+
+INDEX
+
+Absorption spectra
+AC current
+AC Generator
+AC voltage
+applied to a capacitor
+applied to a resistor
+applied to an inductor
+applied to a series LCR circuit
+Accelerators in India
+Activity of radioactive substances
+Additivity of charges
+Alpha decay
+Alpha particle scattering
+Ammeter
+Ampere
+Amperes circuital law
+Analog signal
+AND gate
+Andre, Ampere
+Angle
+of deviation
+of incidence
+of reflection
+of refraction
+Angular magnification
+Apparent depth
+Area element vector
+Atomic
+mass unit
+number
+spectra
+Aurora Borealis
+Band gap
+Bar magnet
+as solenoid
+Barrier potential
+Becquerel
+Beta decay
+Binding energy per nucleon
+
+421
+233
+224
+233
+241
+234
+237
+244
+142
+447
+8
+449
+415
+165
+155
+147
+491
+492
+148
+330
+355
+357
+355
+339
+318
+26
+439
+440
+420
+139
+471
+174
+176
+479
+448
+450
+444
+
+Biot-Savart law
+Bohr magneton
+Bohr radius
+Bohr’s model of atom
+Bohr’s postulates
+Brewster’s angle
+Brewster’s law
+C.A. Volta
+Capacitance
+Capacitive reactance
+Capacitive circuit
+Capacitor
+parallel plate
+in parallel
+in series
+Cartesian sign convention
+Cassegrain telescope
+Cells
+in parallel
+in series
+Chain reaction
+Charging by induction
+Charles August de Coulomb
+Chromatic aberration
+Coercivity
+Coherent source
+Colour code of resistors
+Combination of lenses
+Combination of resistors
+series
+parallel
+Composition of nucleus
+Concave mirror
+Conduction band
+Conductivity
+Conductors
+Conservation of charge
+Conservative force
+Continuous charge distribution
+
+520
+2022-23
+
+143
+163
+425
+422
+424
+380
+381
+53
+73
+241
+252
+74
+79
+78
+311
+341
+110
+114
+113
+453
+6
+11
+332
+195
+360
+103
+328
+107
+108
+438
+312
+469
+97, 468
+5
+8
+51
+32
+
+Index
+Control rods
+Convex mirror
+Coulomb
+Coulomb’s law
+Critical angle
+Curie temperature
+Curie
+Current
+density
+loop as a magnetic dipole
+sensitivity of galvanometer
+Cut-off voltage/Stopping potential
+Cyclotron
+frequency
+Davisson & Germer Experiment
+de Broglie
+relation
+wavelength
+explanation
+Decay constant
+Diamagnetism
+Dielectrics
+Dielectric
+constant
+strength
+Diffraction
+single slit
+Digital
+electronics
+signal
+Dioptre
+Dipole
+moment
+moment vector
+in uniform electric field
+physical significance
+Displacement current
+Doppler effect
+Drift velocity
+Earth’s magnetism
+Earthing
+Eddy currents
+Einstein’s photoelectric equation
+Electric
+charge
+current
+dipole
+displacement
+field
+field, physical significance
+field due to a system of charges
+field lines
+flux
+
+454
+312
+11
+10
+320
+194
+448
+94
+97
+160
+165
+391
+140
+141
+403
+398
+398
+430
+446
+192
+71
+76
+74
+367
+368
+491
+491
+328
+28
+28
+31
+29
+270
+358
+98
+185
+5
+218
+394
+1
+93
+27
+77
+18
+20
+19
+23
+25
+
+susceptibility
+Electrical energy
+Electromagnetic
+waves, sources
+waves, nature
+damping
+spectrum
+Electron emission
+Electrostatic
+analog
+potential
+shielding
+Electrostatics
+of conductors
+Electromotive force (emf )
+Emission spectra
+Energy
+bands
+generation in stars
+levels
+stored in a capacitor
+Equipotential surfaces
+Excited state
+Experiments of Faraday & Henry
+Extrinsic semiconductor
+Farad
+Faraday’s law of Induction
+Fast breeder reactor
+Ferromagnetism
+Field
+due to infinite plane sheet
+due to uniformly charged thin spherical
+shell
+Field emission
+Flux leakage
+Focal length
+Force between two parallel currents
+Forward bias
+Franck-Hertz experiment
+Fringe width
+Full-wave rectifier
+G.S. Ohm
+Gamma
+rays
+decay
+Gauss’s law
+its applications
+in magnetism
+Gaussian surface
+Geographic meridian
+Gold leaf electroscope
+Ground state
+H.A. Lorentz
+
+72
+105
+274
+275
+218
+280
+387
+180
+53
+69
+1
+67
+110
+421
+469
+455
+427
+80
+60
+427
+205
+474
+74
+207
+453
+193
+38
+39
+388
+261
+311
+154
+479
+428
+364
+483
+95
+283
+451
+33
+37
+181
+35
+186
+4
+427
+134
+
+521
+2022-23
+
+Physics
+Half life
+Half-wave rectifier
+Hallwachs’ and Lenard’s observations
+Henry
+Hertz Experiment
+Holes
+Horizontal component of earth’s
+magnetic field
+Huygen’s Principle
+Impact parameter
+Impedence diagram
+Inductance
+mutual
+self
+Induction
+of charge
+Inductive
+circuit
+reactance
+Insulators
+Interference
+constructive
+destructive
+fringes
+Internal resistance
+Intrinsic semiconductor
+Ionisation energy
+Isobars
+Isotones
+Isotopes
+J.C. Maxwell
+K.F. Gauss
+Kirchhoff’s rules
+Lateral shift
+Law
+of radioactive decay
+of reflection
+of refraction
+LC oscillations
+Lenz’s law
+Lens maker’s formula
+Light emitting diode
+Limitations of Ohm’s law
+Linear
+charge density
+magnification/Magnifying power
+Logic gates
+Lorentz force
+Magnetic
+declination
+dipole
+dipole moment of a revolving electron
+field
+field lines
+
+448
+483
+388
+220
+274
+472
+187
+353
+418
+246
+219
+220
+222
+6
+6
+252
+238
+5
+361
+361
+363
+110
+472
+427
+441
+441
+439
+270
+182
+115
+317
+447
+357
+356
+255
+210
+326
+488
+101
+32
+336
+491
+134
+186
+177
+162
+132
+175
+
+field on the axis of a circular current loop 145
+flux
+182, 206
+force on a current carrying conductor
+135
+force
+133
+hysteresis
+195
+inclination
+187
+intensity
+190
+meridian
+186
+moment of a current loop
+158
+moment
+178
+permeability
+190
+potential energy
+178
+susceptibility
+190
+torque
+178
+Magnetisation
+189
+Majority carriers
+476
+Mass
+defect
+443
+number
+440
+energy relation
+442
+Maxwell’s equations
+273
+Mean life
+448
+Meter bridge
+120
+Michael Faraday
+208
+Microscope
+335
+compound
+337
+Microwaves
+281
+Minority carriers
+476
+Mirage
+321
+Mirror equation
+314
+Mobility
+100
+Moderator
+454
+Motion in a magnetic field
+137
+Motional emf
+212
+Moving coil galvanometer
+163
+Multiplication factor (fission)
+454
+NAND gate
+504
+Neutrons
+440
+Non-polar molecules
+72
+NOR gate
+505
+North pole
+174
+NOT gate
+491
+n-type semi conductor
+475
+Nuclear
+binding energy
+442
+density
+442
+energy
+451
+fission
+452
+force
+445
+fusion
+455
+holocaust
+457
+reactor
+452
+size
+441
+winter
+457
+
+522
+2022-23
+
+Index
+Numerical aperture
+Ohm
+Ohm’s law
+Optical fibres
+OR gate
+Orbital magnetic moment
+Paramagnetism
+Permanent magnets
+Permeability of free space
+Permittivity
+of free space
+of medium
+Phasors
+diagram
+Photodiode
+Photoelectric effect
+Photocell
+Photoelectric emission
+Photoelectrons
+Photon
+Pith ball
+Plane polarised wave
+p-n-p junction
+Point charge
+Polar molecules
+Polarisation
+by reflection
+by scattering
+Polarity of charge
+Polaroid
+Potential
+due to an electric dipole
+due to a point charge
+due to a system of charges
+energy difference
+energy for a system of charges
+energy of a dipole
+energy of a single charge
+energy of a system of two charges
+energy
+Potentiometer
+Power (electrical)
+factor
+in ac circuit
+of lens
+Pressurised heavy water reactors
+Primary coil
+Principal focus
+Principle of superposition
+Principle quantum number
+Properties of electric charge
+p-type semi conductor
+Q factor/quality factor
+Quanta of energy
+Quantisation of charge
+
+375
+95
+95
+321
+491
+163
+192
+195
+143
+11, 76
+76
+237
+237
+487
+388
+399
+388
+389
+395
+2
+377
+478
+10
+72
+71, 376
+380
+379
+2
+378
+53
+55
+54
+57
+53
+61
+66
+64
+65
+52
+122
+106
+252
+252
+327
+453
+311
+15
+425
+8
+476
+250
+393
+8
+
+Radio waves
+Radioactivity
+Rainbow
+Ray optics, validity of
+Rayleigh scattering
+Rectifier
+Red shift
+Reflection of light
+Refraction
+of a plane wave
+Refractive index
+Relation between field and potential
+Relaxation time
+Rententivity
+Resistance
+Resistivity
+of some materials
+Resolving power
+of eye
+Resonance
+Sharpness
+Resonant frequency
+Reverse bias
+Right hand rule
+Root mean square (rms) or effective
+current
+voltage
+Roget’s spiral
+Rutherford’s model of atom
+Saturation current
+Scattering of light
+Secondary wavelet
+Semiconductors
+diode
+elemental
+compound
+Shunt resistance
+Snell’s law
+Solar cell
+Solenoid
+South pole
+Spectral series
+Brackett
+Fund
+Lyman
+Paschen
+Spherical mirror
+Spin magnetic moment
+Surface charge density
+Telescope
+Temperature dependence of
+resistivity
+Tesla
+Thermionic emission
+
+281
+446
+333
+375
+334
+483
+358
+310
+318
+355
+317, 356
+61
+98
+195
+95
+96, 468
+102
+373
+374
+248
+249
+248
+480
+149
+235
+236
+156
+415
+390
+334
+354
+469
+479
+468
+468
+164
+317, 356
+489
+151
+174
+421
+422
+422
+422
+422
+310, 311
+163
+32
+339
+103
+135
+388
+
+523
+2022-23
+
+Physics
+Thermonuclear fusion
+Thin lens formula
+Threshold frequency
+Tokamak
+Toroid
+Torque
+on a current loop
+on a dipole
+Total internal reflection
+Transformer
+Step-down
+Step-up
+Truth table
+Uncertainty Principle
+Unpolarised wave
+Ultraviolet rays
+Valence band
+
+456
+326
+392
+153
+152
+157
+31
+319
+259
+261
+261
+491
+400
+377
+282
+469
+
+524
+2022-23
+
+Velocity selector
+Visible rays
+Voltage Regulator
+Voltage sensitivity of a galvanometer
+Voltmeter
+Volume charge density
+Wattless current
+Wavefront
+plane
+spherical
+Wheatstone bridge
+Work function
+X rays
+Young’s experiment
+Zener
+diode
+breakdown
+
+140
+282
+486
+165
+165
+32
+252
+353
+354
+354
+118
+394
+283
+362
+485
+485
+
+Physics
+
+APPENDICES
+
+APPENDIX A 1
+THE GREEK ALPHABET
+
+APPENDIX A 2
+COMMON SI PREFIXES AND SYMBOLS FOR MULTIPLES AND SUB-MULTIPLES
+
+500
+2022-23
+
+Appendices
+Answers
+APPENDIX A 3
+SOME IMPORTANT CONSTANTS
+
+OTHER USEFUL CONSTANTS
+
+501
+2022-23
+
+
